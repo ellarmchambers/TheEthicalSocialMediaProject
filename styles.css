@@ -70,7 +70,7 @@ h2{
 h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 4em;
     color: #2B0054;
     margin: 0;
 }
@@ -136,7 +136,32 @@ p{
 
 /* Ethical Investigation Page */
 
+.ethical-investigation{
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.ethical-section-introduction{
+    padding: 30px;
+    margin-top: 110px;
+}
+
+.features-of-sm{
+    margin-top: 50px;
+    background: rgba(53, 202, 218, 0.35);
+    padding: 20px;
+}
+
 /* Design Investigation Page */
+
+.design-section-introduction{
+    padding: 30px;
+    margin-top: 110px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto; 
+}
 
 .solutions{
     margin-top: 50px;
@@ -150,21 +175,17 @@ p{
 }
 
 .card-container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin:auto;
 }
 
-.row-card{
+.flex-grid{
     display: flex;
-    flex: wrap;
     justify-content: center;
-    align-items: center;
 }
 
-.column-card{
-    align-content: center;
+.card-column{
     padding: 15px;
-    width: 30%;
 }
 
 .card-icon{
@@ -185,7 +206,15 @@ p{
     text-align: center;  
 }
 
-.card-bottom{
+.card-bottom-teal{
+    background: rgba(53, 202, 218, 0.35);
+    border-radius: 0px 0px 10px 10px;
+    width: 375px;
+    height: 260px; 
+    padding: 20px;   
+}
+
+.card-bottom-blue{
     background: rgba(0, 114, 255, 0.35);
     border-radius: 0px 0px 10px 10px;
     width: 375px;
@@ -279,6 +308,8 @@ p{
     position:sticky;
     bottom:0;
 }
+
+/* Media Queries */
 
 @media (max-width: 1200px) {
     .blurb {
