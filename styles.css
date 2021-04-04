@@ -31,6 +31,24 @@ body {
      font-size: 1.8em;
 }
 
+.nav-item:hover{
+    color: #782BA1;
+}
+
+/* Footer */
+
+footer{
+    background-color: #2B0054;
+    padding: 20px;
+}
+
+.footer-item{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
 /* Fonts */
 
 h1{
@@ -184,6 +202,24 @@ p{
 
 .infinite-scroll-instagram{
     background: rgba(53, 202, 218, 0.35);
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.infinite-scroll-facebook{
+    background: rgba(255, 255, 255);
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.infinite-scroll-tiktok{
+    background: rgba(0, 114, 255, 0.25);
     width: 100%;
     position: relative;
     display: block;
