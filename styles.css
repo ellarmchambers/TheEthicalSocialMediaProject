@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+}
+
+/* Nav Bar */
+
+.nav-logo{
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 10px 10px;
+}
+
+.nav-bar{
+     overflow: hidden;
+     position: fixed; 
+     top: 0; 
+     width: 100%; 
+     background: #ffffff;
+     z-index: 10;
+}
+
+.nav-item {
+     float: right;
+     display: block;
+     color: #2B0054;
+     text-align: center;
+     padding: 35px 45px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 800;
+     font-size: 1.8em;
+}
+
+/* Fonts */
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 4.5em; 
+    color: #782BA1;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3.5em;
+    color: #00848d;
+    margin: 0;   
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    color: #2B0054;
+    margin: 0;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #2B0054;
+    margin: 0;
+    line-height: 1.2;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #2B0054;
+    margin: 5; 
+}
+
+/* Background Circles */
+
+#circle-teal {
+    background: #35cada;
+    opacity: 35%;
+    border-radius: 50%;
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: -500px;
+    left: -280px;  
+}
+#circle-purple {
+    background: #782BA1;
+    opacity: 35%;
+    border-radius: 50%;
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: -200px;
+    right: -500px;   
+}
+#circle-blue {
+    background: #0072FF;
+    opacity: 35%;
+    border-radius: 50%;
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    bottom: -600px;
+    left: 100px;   
+}
+
+/* Landing Page */
+
+.logo-home{
+    position: relative;
+    width: 650px;
+    height: 650px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+/* Ethical Investigation Page */
+
+/* Design Investigation Page */
+
+.solutions{
+    margin-top: 50px;
+    background: rgba(53, 202, 218, 0.35);
+    padding: 20px;
+    text-align: center;
+}
+
+.features{
+    margin-top: 30px;
+}
+
+.card-container{
+    max-width: 1400px;
+    margin:auto;
+}
+
+.row-card{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-card{
+    align-content: center;
+    padding: 15px;
+    width: 30%;
+}
+
+.card-icon{
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 114, 255, 0.35);
+    border-radius: 100px;
+    padding: 30px; 
+    margin: 10px;
+}
+
+.card-top{
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 0px 0px;
+    width: 375px;
+    height: 180px;
+    padding: 20px;
+    text-align: center;  
+}
+
+.card-bottom{
+    background: rgba(0, 114, 255, 0.35);
+    border-radius: 0px 0px 10px 10px;
+    width: 375px;
+    height: 260px; 
+    padding: 20px;   
+}
+
+/* Infinite Scroll Page */
+
+.section-introduction{
+    padding: 30px;
+    margin-top: 110px;   
+}
+
+.infinite-scroll-instagram{
+    background: rgba(53, 202, 218, 0.35);
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin:auto;
+    position: relative;
+    display: block;
+}
+
+.row{
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.blurb { /* Styles of the feature content */
+    width: 40%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.phone{ /* Styles of the phone screen shape */
+    height: 680px;
+    width: 330px;
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow: auto;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.phone::-webkit-scrollbar { /* Removes the scroll bar */
+    display: none;
+}
+
+.phone-header{ /* Fixes the header navigation to the top of the scroll */
+    position:sticky;
+    top:0;
+}
+
+.phone-footer{ /* Fixes the footer navigation to the bottom of the scroll */
+    position:sticky;
+    bottom:0;
+}
+
+@media (max-width: 1200px) {
+    .blurb {
+        width: 100%;
+    }
+}
