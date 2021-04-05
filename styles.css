@@ -136,7 +136,7 @@ p{
 
 /* Ethical Investigation Page */
 
-.ethical-investigation{
+.ethical-content{
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto; 
@@ -145,11 +145,23 @@ p{
 .ethical-section-introduction{
     padding: 30px;
     margin-top: 110px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto; 
 }
 
-.features-of-sm{
-    margin-top: 50px;
+.background-teal{
     background: rgba(53, 202, 218, 0.35);
+    padding: 20px;
+}
+
+.background-white{
+    background: rgba(255, 255, 255);
+    padding: 20px;
+}
+
+.background-blue{
+    background: rgba(0, 114, 255, 0.25);
     padding: 20px;
 }
 
@@ -188,7 +200,16 @@ p{
     padding: 15px;
 }
 
-.card-icon{
+.card-icon-teal{
+    width: 100px;
+    height: 100px;
+    background: rgba(53, 202, 218, 0.35);
+    border-radius: 100px;
+    padding: 30px; 
+    margin: 10px;
+}
+
+.card-icon-blue{
     width: 100px;
     height: 100px;
     background: rgba(0, 114, 255, 0.35);
