@@ -340,3 +340,37 @@ p{
         width: 100%;
     }
 }
+
+/* Table Experimentation */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* width: 100%; */
+  }
+  
+th{
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 0;
+    background-color: #2B0054;
+
+} 
+  
+td {
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: #2B0054;
+    margin: 0;
+
+}
+
+tr:nth-child(even){background-color: #ffffff}
+tr:nth-child(odd){background-color: #f2f2f2}
