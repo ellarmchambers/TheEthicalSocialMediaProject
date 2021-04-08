@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://use.fontawesome.com/87fa3639dc.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Notifications</title> <!-- Page title -->
+</head>
+
+<body>
+    <div class="nav-bar">
+        <a href="design-investigation.html" class="nav-item" style="text-decoration: none;">Design Investigation</a>
+        <a href="ethical-investigation.html" class="nav-item" style="text-decoration: none;">Ethical Investigation</a>
+        <a href="index.html" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a>
+    </div>
+
+    <div class="notifications">
+        <div class="section-introduction">
+            <div class="row">
+                <h1>Notifications</h1>
+                <p>Notifications are an important aspect of our phones and social media, they allow us to stay connected
+                    with others, but they are also one of the most distracting features of our phones. A study from 2015
+                    that looked at how phone notifications can affect our attention concluded that “mobile phones can
+                    disrupt attention performance even if one does not interact with the device” (The Attentional Cost
+                    of Receiving a Cell Phone Notification, 2015).</p>
+            </div>
+        </div>
+
+        <div class="notification-sounds">
+            <div class="container">
+                <div class="row row--flex">
+                    <div class="notification-blurb">
+                        <h2>Notification Sounds</h2>
+                        <p>There are a variety of notification sounds and some applications come with their own, and
+                            others use the devices built in sounds. High pitched tones are proven to be more invasive
+                            and distracting and the notification sounds that these applications produce should be
+                            changed to lessen the negative effect that notifications can have on our concentration and
+                            mental health.</p>
+                        <p>Click on the buttons to the right to experiment with different notification sounds. The top
+                            three are sounds from 3 popular social media applications and the others are examples of
+                            replacement sounds. </p>
+                    </div>
+
+                    <div id="application-icon" onclick="play()">
+                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio>
+                    </div>
+
+                    <div id="application-icon"  onclick="incrementValue()" >
+                        <div id="number" class="application-badge"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <a href="resources.html" class="footer-item" style="text-decoration: none;">Resources</a>
+    </footer>
+
+</body>
+
+</html>
