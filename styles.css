@@ -248,9 +248,28 @@ p{
 
 /* Notification Page */
 
-.fab{
-    color: #2B0054;
+.notification-sounds{
+    background: rgba(53, 202, 218, 0.35);
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
+
+.notification-blurb { 
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+}
+
 
 .button-green{
     background: rgba(0, 132, 141, 0.35);
@@ -264,18 +283,21 @@ p{
     background: rgba(0, 114, 255, 0.35);
 }
 
-button {
-    
+.fab{
+    color: #2B0054;
+}
+
+button { 
     border-radius: 25px;
     width: 94px;
     height: 91px;
     position: relative;
     outline: none;
-    border: none;
-  
+    border: none; 
 }
 
-.application-badge {
+.application-badge-old {
+    display: none;
     position: absolute;
     top: -13px;
     right: -13px;
@@ -292,21 +314,45 @@ button {
     text-align: center;
 }
 
-.notification-sounds{
-    background: rgba(53, 202, 218, 0.35);
-    width: 100%;
-    position: relative;
-    display: block;
-    padding: 40px 20px;
-    box-sizing: border-box;
+#application-badge-green {
+    display: none;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: rgba(0, 132, 141, 0.65);
 }
 
-.notification-blurb { 
-    width: 50%;
-    box-sizing: border-box;
-    padding-right: 20px;
-    padding-bottom: 40px;
+#application-badge-purple {
+    display: none;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: rgba(120, 43, 161, 0.65);
 }
+
+#application-badge-blue {
+    display: none;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: rgba(0, 114, 255, 0.65);
+}
+
 
 /* Infinite Scroll Page */
 
@@ -359,6 +405,7 @@ button {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    
 }
 
 .blurb { /* Styles of the feature content */
@@ -402,6 +449,7 @@ button {
         width: 100%;
     }
 }
+
 
 /* Table Experimentation */
 
