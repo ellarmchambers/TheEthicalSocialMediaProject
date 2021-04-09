@@ -1,13 +1,14 @@
-function play() {
-  var audio = document.getElementById("audio");
-  audio.play();
-}
-
-function incrementValue()
-{
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').innerHTML = value;
-    document.getElementById('number').value = value;
+function notifyMe(app){
+  var button = document.getElementById(app)
+  var audio = button.getElementsByTagName('audio')[0];
+  if (audio.paused) {
+    audio.play();
+  }else{
+    audio.currentTime = 0
+  }
+  var value = parseInt(button.getElementsByClassName('application-badge')[0].value);
+  value = isNaN(value) ? 0 : value;
+  value++;
+  button.getElementsByClassName('application-badge')[0].innerHTML = value;
+  button.getElementsByClassName('application-badge')[0].value = value;
 }

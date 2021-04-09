@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="https://use.fontawesome.com/87fa3639dc.js"></script>
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <title>Notifications</title> <!-- Page title -->
 </head>
 
@@ -46,23 +45,37 @@
                             replacement sounds. </p>
                     </div>
 
-                    <div id="application-icon" onclick="play()">
-                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio>
+                    <div class="application-button">
+                        <button class="button-green" id="facebook-sound" onclick="notifyMe('facebook-sound')"><i class="fab fa-facebook-f fa-4x"></i>
+                            <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio>
+                            <div class="application-badge"></div>
+                        </button>
                     </div>
 
-                    <div id="application-icon"  onclick="incrementValue()" >
-                        <div id="number" class="application-badge"></div>
+                    <div class="application-button">
+                        <button class="button-purple" id="messenger-sound" onclick="notifyMe('messenger-sound')"><i class="fab fa-facebook-messenger fa-4x"></i>
+                            <audio id="audio" src="assets/audio/messenger-sound.mp3"></audio>
+                            <div class="application-badge"></div>
+                        </button>
+                    </div>
+
+                    <div class="application-button">
+                        <button class="button-blue" id="snapchat-sound" onclick="notifyMe('snapchat-sound')"><i class="fab fa-snapchat-ghost fa-4x"></i>
+                            <audio id="audio" src="assets/audio/snapchat-sound.mp3"></audio>
+                            <div class="application-badge"></div>
+                        </button>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    
+
     <footer>
         <a href="resources.html" class="footer-item" style="text-decoration: none;">Resources</a>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

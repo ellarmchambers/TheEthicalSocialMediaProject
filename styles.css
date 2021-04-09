@@ -248,26 +248,48 @@ p{
 
 /* Notification Page */
 
-.application-badge{
-    border-radius: 50%;
-    background: red;
-    color: white;
-    padding: 10px;
-    font-family: 'Poppins', 'sans-serif';
-    font-weight: 800;
-    font-size: 1.5em;
-    text-align: center;
-
+.fab{
+    color: #2B0054;
 }
 
-#application-icon{
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 25px;
+.button-green{
     background: rgba(0, 132, 141, 0.35);
-    padding: 20px;
-    width: 64px;
-    height: 61px;
+}
+
+.button-purple{
+    background: rgba(120, 43, 161, 0.35);
+}
+
+.button-blue{
+    background: rgba(0, 114, 255, 0.35);
+}
+
+button {
+    
+    border-radius: 25px;
+    width: 94px;
+    height: 91px;
+    position: relative;
+    outline: none;
+    border: none;
+  
+}
+
+.application-badge {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 800;
+    font-size: 1.8em;
+    text-align: center;
 }
 
 .notification-sounds{
