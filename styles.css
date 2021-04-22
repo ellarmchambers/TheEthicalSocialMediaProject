@@ -476,15 +476,16 @@ button {
     }
     .flex-grid{
         flex-direction: column;
+        flex: wrap;
     }
     .card-top{
         height:240px;
-        width: 100%;
+        width: 50%;
         box-sizing: border-box; 
     }
     .card-bottom{
         /* height: 180px; */
-        width: 100%;
+        width: 50%;
         box-sizing: border-box;    
     }
 }
