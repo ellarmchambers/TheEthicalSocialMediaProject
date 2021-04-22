@@ -453,7 +453,7 @@ button {
     }
 }
 
-@media (max-wdith: 770){ /* iPad */
+@media (max-width: 770px){ /* iPad */
     .row--flex{
         flex-direction: column;
     }
