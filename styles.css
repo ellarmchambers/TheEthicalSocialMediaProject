@@ -187,16 +187,18 @@ p{
 
 .features{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card-container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin:auto;
 }
 
 .flex-grid{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-column{
@@ -272,9 +274,9 @@ p{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: 80px;
     grid-gap: 80px;
 }
-
 
 .button-green{
     background: rgba(0, 132, 141, 0.35);
