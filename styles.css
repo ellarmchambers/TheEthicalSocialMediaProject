@@ -200,25 +200,24 @@ p{
 }
 
 .card-column{
-    padding: 15px;
+    padding: 10px;
+    box-sizing: border-box; /* Adding box-sizing property here, so that padding and margin are part of the elements overall width/height */
+}
+
+.card-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 30px; 
+    margin: 10px;
 }
 
 .card-icon-teal{
-    width: 100px;
-    height: 100px;
     background: rgba(53, 202, 218, 0.35);
-    border-radius: 100px;
-    padding: 30px; 
-    margin: 10px;
 }
 
 .card-icon-blue{
-    width: 100px;
-    height: 100px;
     background: rgba(0, 114, 255, 0.35);
-    border-radius: 100px;
-    padding: 30px; 
-    margin: 10px;
 }
 
 .card-top{
@@ -228,22 +227,28 @@ p{
     height: 180px;
     padding: 20px;
     text-align: center;  
+
+    /* height:240px;
+    width: 100%; */
+    /* box-sizing: border-box;  */
+}
+
+.card-bottom{
+    border-radius: 0px 0px 10px 10px;
+    width: 375px;
+    height: 260px; 
+    padding: 20px; 
+    
+    /* width: 100%; */
+    /* box-sizing: border-box;     */
 }
 
 .card-bottom-teal{
-    background: rgba(53, 202, 218, 0.35);
-    border-radius: 0px 0px 10px 10px;
-    width: 375px;
-    height: 260px; 
-    padding: 20px;   
+    background: rgba(53, 202, 218, 0.35);  
 }
 
 .card-bottom-blue{
-    background: rgba(0, 114, 255, 0.35);
-    border-radius: 0px 0px 10px 10px;
-    width: 375px;
-    height: 260px; 
-    padding: 20px;   
+    background: rgba(0, 114, 255, 0.35);   
 }
 
 /* Notification Page */
@@ -402,10 +407,8 @@ button {
 
 .row--flex {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    
+    flex-direction: row;
+    justify-content: space-between;  
 }
 
 .blurb { /* Styles of the feature content */
@@ -447,6 +450,54 @@ button {
 @media (max-width: 1200px) {
     .blurb {
         width: 100%;
+    }
+}
+
+@media (max-wdith: 770){ /* iPad */
+    .row--flex{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px) { /* iPhone 6/7/8 */
+    .row--flex {
+        flex-direction: column;
+    }
+    .notification-blurb{
+        width: 100%;
+    }
+    .grid-container{
+        grid-gap: 8px 1px;  /* 8px to left and right, 1px to top and bottom */
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-bar .nav-btn{
+        margin-right: 20px;
+        font-size: 35px;
+    }
+    .flex-grid{
+        flex-direction: column;
+    }
+    .card-top{
+        height:240px;
+        width: 100%;
+        box-sizing: border-box; 
+    }
+    .card-bottom{
+        width: 100%;
+        box-sizing: border-box;    
     }
 }
 
