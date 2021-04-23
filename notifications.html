@@ -13,9 +13,9 @@
 
 <body>
     <div class="nav-bar">
-        <a href="design-investigation.html" class="nav-item" style="text-decoration: none;">Design Investigation</a>
+        <!-- <a href="design-investigation.html" class="nav-item" style="text-decoration: none;">Design Investigation</a>
         <a href="ethical-investigation.html" class="nav-item" style="text-decoration: none;">Ethical Investigation</a>
-        <a href="index.html" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a>
+        <a href="index.html" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a> -->
         <!-- <a href="#" class="nav-btn"><i class="fas fa-bars"></i></a> -->
     </div>
 
@@ -46,56 +46,58 @@
                             replacement sounds. </p>
                     </div>
 
-                    <div class="grid-container">
-                        <div class="grid-item">
-                            <div class="application-button">
-                                <button class="button-green" id="facebook-sound"
-                                    onclick="notifyMeOld('facebook-sound')">
-                                    <i class="fab fa-facebook-f fa-4x"></i>
-                                    <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio><!-- Calling on the audio -->
-                                    <div id="application-badge-old" class="application-badge-old"></div>
+                    <div class="application-icons">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <div class="application-button">
+                                    <button class="button-green" id="facebook-sound"
+                                        onclick="notifyMeOld('facebook-sound')">
+                                        <i class="fab fa-facebook-f fa-4x"></i>
+                                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio><!-- Calling on the audio -->
+                                        <div id="application-badge-old" class="application-badge-old"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="application-button">
+                                    <button class="button-purple" id="messenger-sound"
+                                        onclick="notifyMeOld('messenger-sound')">
+                                        <i class="fab fa-facebook-messenger fa-4x"></i>
+                                        <audio id="audio" src="assets/audio/messenger-sound.mp3"></audio>
+                                        <div id="application-badge-old" class="application-badge-old"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="application-button">
+                                    <button class="button-blue" id="snapchat-sound" onclick="notifyMeOld('snapchat-sound')">
+                                        <i class="fab fa-snapchat-ghost fa-4x"></i>
+                                        <audio id="audio" src="assets/audio/snapchat-sound.mp3"></audio>
+                                        <div id="application-badge-old" class="application-badge-old"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <button class="button-green" id="calm-sound-one" onclick="notifyMeNew('calm-sound-one')">
+                                    <i class="fas fa-bell fa-4x"></i>
+                                    <audio id="audio" src="assets/audio/calm-tone-1.mp3"></audio>
+                                    <div id="application-badge-green" class="application-badge-new"></div>
                                 </button>
                             </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="application-button">
-                                <button class="button-purple" id="messenger-sound"
-                                    onclick="notifyMeOld('messenger-sound')">
-                                    <i class="fab fa-facebook-messenger fa-4x"></i>
-                                    <audio id="audio" src="assets/audio/messenger-sound.mp3"></audio>
-                                    <div id="application-badge-old" class="application-badge-old"></div>
+                            <div class="grid-item">
+                                <button class="button-purple" id="calm-sound-two" onclick="notifyMeNew('calm-sound-two')">
+                                    <i class="fas fa-bell fa-4x"></i>
+                                    <audio id="audio" src="assets/audio/calm-tone-2.ogg"></audio>
+                                    <div id="application-badge-purple" class="application-badge-new"></div>
                                 </button>
                             </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="application-button">
-                                <button class="button-blue" id="snapchat-sound" onclick="notifyMeOld('snapchat-sound')">
-                                    <i class="fab fa-snapchat-ghost fa-4x"></i>
-                                    <audio id="audio" src="assets/audio/snapchat-sound.mp3"></audio>
-                                    <div id="application-badge-old" class="application-badge-old"></div>
+                            <div class="grid-item">
+                                <button class="button-blue" id="calm-sound-three" onclick="notifyMeNew('calm-sound-three')">
+                                    <i class="fas fa-bell fa-4x"></i>
+                                    <audio id="audio" src="assets/audio/calm-tone-3.mp3"></audio>
+                                    <div id="application-badge-blue" class="application-badge-new"></div>
                                 </button>
                             </div>
-                        </div>
-                        <div class="grid-item">
-                            <button class="button-green" id="calm-sound-one" onclick="notifyMeNew('calm-sound-one')">
-                                <i class="fas fa-bell fa-4x"></i>
-                                <audio id="audio" src="assets/audio/calm-tone-1.mp3"></audio>
-                                <div id="application-badge-green" class="application-badge-new"></div>
-                            </button>
-                        </div>
-                        <div class="grid-item">
-                            <button class="button-purple" id="calm-sound-two" onclick="notifyMeNew('calm-sound-two')">
-                                <i class="fas fa-bell fa-4x"></i>
-                                <audio id="audio" src="assets/audio/calm-tone-2.ogg"></audio>
-                                <div id="application-badge-purple" class="application-badge-new"></div>
-                            </button>
-                        </div>
-                        <div class="grid-item">
-                            <button class="button-blue" id="calm-sound-three" onclick="notifyMeNew('calm-sound-three')">
-                                <i class="fas fa-bell fa-4x"></i>
-                                <audio id="audio" src="assets/audio/calm-tone-3.mp3"></audio>
-                                <div id="application-badge-blue" class="application-badge-new"></div>
-                            </button>
                         </div>
                     </div>
                 </div>
