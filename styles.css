@@ -16,7 +16,6 @@ body {
      position: fixed; 
      top: 0; 
      width: 100%; 
-     /* background: #f1f1f1; */
      z-index: 10;
      transition: 0.4s;
 }
@@ -30,6 +29,7 @@ body {
      font-family: 'Poppins', sans-serif;
      font-weight: 800;
      font-size: 1.8em;
+     transition: 0.4s;
 }
 
 .nav-item:hover{
@@ -111,6 +111,7 @@ p{
     top: -500px;
     left: -280px;  
 }
+
 #circle-purple {
     background: #782BA1;
     opacity: 35%;
@@ -121,6 +122,7 @@ p{
     top: -200px;
     right: -500px;   
 }
+
 #circle-blue {
     background: #0072FF;
     opacity: 35%;
@@ -230,10 +232,6 @@ p{
     height: 180px;
     padding: 20px;
     text-align: center;  
-
-    /* height:240px;
-    width: 100%; */
-    /* box-sizing: border-box;  */
 }
 
 .card-bottom{
@@ -241,9 +239,6 @@ p{
     width: 375px;
     height: 260px; 
     padding: 20px; 
-    
-    /* width: 100%; */
-    /* box-sizing: border-box;     */
 }
 
 .card-bottom-teal{
@@ -365,7 +360,6 @@ button {
     border-radius: 25px;
     background: rgba(0, 114, 255, 0.65);
 }
-
 
 /* Infinite Scroll Page */
 
@@ -500,7 +494,6 @@ button {
         box-sizing: border-box; 
     }
     .card-bottom{
-        /* height: 180px; */
         box-sizing: border-box;    
     }
 }
@@ -524,16 +517,6 @@ button {
     h3{
         font-size: 2em;
     }
-    /* .nav-bar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .nav-bar .nav-btn{
-        margin-right: 20px;
-        font-size: 35px;
-    } */
     .flex-grid{
         flex-direction: column;
     }
@@ -546,8 +529,17 @@ button {
         width: 100%;
         box-sizing: border-box;    
     }
-}
+        /* .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .nav-bar .nav-btn{
+        margin-right: 20px;
+        font-size: 35px;
+    } */
+}
 
 /* Table Experimentation */
 
