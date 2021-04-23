@@ -4,11 +4,13 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("nav-bar").style.backgroundColor = "#f1f1f1";
-    document.getElementById("nav-item-test").style.padding = "20px 45px";
+    document.getElementById("nav-item-design").style.padding = "20px 45px";
+    document.getElementById("nav-item-ethical").style.padding = "20px 45px";
     document.getElementById("logo").style.width = "60px";
   } else {
     document.getElementById("nav-bar").style.backgroundColor = "transparent";
-    document.getElementById("nav-item-test").style.padding = "35px 45px";
+    document.getElementById("nav-item-design").style.padding = "35px 45px";
+    document.getElementById("nav-item-ethical").style.padding = "35px 45px";
     document.getElementById("logo").style.width = "90px";
   }
 }

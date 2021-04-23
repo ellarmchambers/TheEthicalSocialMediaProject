@@ -95,7 +95,9 @@ h5{
     font-family: 'Poppins', 'sans-serif';
     font: weight 800;
     font-size: 8em;
+    color: #782BA1;
     line-height: 0.9;
+    margin: 0;
 }
 
 p{
@@ -144,6 +146,7 @@ p{
 
 .logo-home{
     margin-left: 50px;
+    margin-top: 130px;
 }
 
 /* Ethical Investigation Page */
