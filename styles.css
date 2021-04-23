@@ -2,6 +2,13 @@ body {
     margin: 0;
 }
 
+.home-body{
+    background-image: url(assets/img/background-circles-home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Nav Bar */
 
 .nav-logo{
@@ -95,7 +102,6 @@ h5{
     font-family: 'Poppins', 'sans-serif';
     font: weight 800;
     font-size: 8em;
-    color: #782BA1;
     line-height: 0.9;
     margin: 0;
 }
@@ -149,6 +155,26 @@ p{
     margin-top: 130px;
 }
 
+.logo-the{
+    color: #782BA1;
+}
+
+.logo-ethical{
+    color: #2B0054;
+}
+
+.logo-social{
+    color: #0072FF;
+}
+
+.logo-media{
+    color: #35CADA;
+}
+
+.logo-project{
+    color: #00848D;
+}
+
 /* Ethical Investigation Page */
 
 .ethical-content{
@@ -188,6 +214,12 @@ p{
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto; 
+
+    /* background-image: url(assets/img/background-circles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
 }
 
 .solutions{

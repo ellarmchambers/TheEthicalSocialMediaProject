@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 980" style="enable-background:new 0 0 1440 980;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{display:inline;opacity:0.349;clip-path:url(#SVGID_2_);}
+	.st3{fill:#4ABED1;}
+	.st4{fill:#3668B1;}
+	.st5{fill:#6C388D;}
+	.st6{display:inline;clip-path:url(#SVGID_2_);}
+	.st7{fill:#2C1F50;}
+	.st8{font-family:'Poppins-ExtraBold';}
+	.st9{font-size:33.3333px;}
+	.st10{font-size:137.9501px;}
+	.st11{fill:#3669B1;}
+	.st12{fill:#4BBED2;}
+	.st13{fill:#07858E;}
+	.st14{fill:#BBE1EA;}
+	.st15{fill:#A9CBED;}
+	.st16{fill:#CEB4D7;}
+</style>
+<g id="Design_-_Website_Wireframe_Experimentation_-_Home_Page.psd" class="st0">
+	<defs>
+		<rect id="SVGID_1_" x="0" y="0" width="1440" height="980"/>
+	</defs>
+	<clipPath id="SVGID_2_" class="st1">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st6">
+		
+			<image style="overflow:visible;" width="1440" height="980" id="Background_1_" xlink:href="EC63FD7B.jpg"  transform="matrix(1 0 0 1 0 7.629395e-05)">
+		</image>
+	</g>
+	<g id="Ellipse_1" class="st2">
+		<g>
+			<path class="st3" d="M202.8,474.7c-69.3,0-136.1-14.5-198.6-43.1V4.2H681c-1,62.7-13.9,123.5-38.5,180.7
+				c-24.3,56.6-58.8,107.3-102.7,150.9c-43.9,43.6-94.9,77.8-151.6,101.7C329.5,462.1,267.1,474.7,202.8,474.7z"/>
+		</g>
+		<g>
+			<path class="st3" d="M676.7,8.3c-1.5,60.7-14.3,119.5-38.1,174.9c-24.1,56.1-58.3,106.4-101.8,149.6
+				c-43.5,43.2-94.1,77.1-150.3,100.8c-58.2,24.5-120,36.9-183.8,36.9c-35,0-69.8-3.8-103.6-11.4c-31.2-7-61.7-17.1-90.8-30.2V8.3
+				H676.7 M685.2,0H0v434.3c61.7,28.6,130.4,44.6,202.8,44.6C468.1,478.8,683.3,264.8,685.2,0L685.2,0z"/>
+		</g>
+	</g>
+	<g id="Ellipse_1_1_" class="st2">
+		<g>
+			<path class="st4" d="M196.3,975.8c40.7-70.5,98.9-129.7,168.7-171.6c74-44.4,159-67.9,245.7-67.9s171.8,23.5,245.7,67.9
+				c69.8,41.9,128.1,101.2,168.7,171.6H196.3z"/>
+		</g>
+		<g>
+			<path class="st4" d="M610.8,740.5c43.7,0,86.9,5.9,128.5,17.6c40.3,11.3,79.1,28,115.1,49.7c67.2,40.3,123.5,96.8,163.6,163.9
+				H203.6c40.1-67.1,96.4-123.6,163.6-163.9c36-21.6,74.7-38.3,115.1-49.7C523.9,746.4,567.2,740.5,610.8,740.5 M610.8,732.2
+				c-181.3,0-339.2,100-421.6,247.8h843.3C950,832.2,792.1,732.2,610.8,732.2L610.8,732.2z"/>
+		</g>
+	</g>
+	<g id="Ellipse_1_2_" class="st2">
+		<g>
+			<path class="st5" d="M1398.8,807.7c-64.6,0-127.2-12.6-186.1-37.6c-56.9-24.1-108.1-58.6-152-102.5s-78.4-95.1-102.5-152
+				c-24.9-58.9-37.6-121.6-37.6-186.1c0-121.2,45.4-236.6,127.7-325.3h387.5v802.1C1423.5,807.2,1411.1,807.7,1398.8,807.7z"/>
+		</g>
+		<g>
+			<path class="st5" d="M1431.7,8.3v794c-10.9,0.7-22,1.1-32.9,1.1c-64,0-126.1-12.5-184.5-37.2c-56.4-23.9-107.1-58.1-150.7-101.6
+				c-43.5-43.5-77.7-94.2-101.6-150.7c-24.7-58.4-37.2-120.5-37.2-184.5c0-119.5,44.5-233.4,125.4-321.2H1431.7 M1440,0h-393.5
+				c-80.7,86.2-130.1,202.1-130.1,329.5c0,266.4,216,482.3,482.4,482.3c13.9,0,27.6-0.6,41.2-1.7V0L1440,0z"/>
+		</g>
+	</g>
+	<g class="st6">
+		<text transform="matrix(1 0 0 1 584.4121 85.6074)" class="st7 st8 st9">Ethical Investigation</text>
+	</g>
+	<g class="st6">
+		<text transform="matrix(1 0 0 1 1019.5449 85.8613)" class="st5 st8 st9">Design Investigation</text>
+	</g>
+	<g id="The_Ethical_Social_Media_Project" class="st6">
+		<text transform="matrix(1 0 0 1 64.3301 329.3105)"><tspan x="0" y="0" class="st5 st8 st10">The</tspan><tspan x="0" y="126.5" class="st7 st8 st10">Ethical </tspan><tspan x="0" y="252.9" class="st11 st8 st10">Social</tspan><tspan x="0" y="379.4" class="st12 st8 st10">Media</tspan><tspan x="0" y="505.8" class="st13 st8 st10">Project</tspan></text>
+	</g>
+</g>
+<circle class="st14" cx="201.8" cy="0" r="482.5"/>
+<circle class="st15" cx="606.6" cy="1212.1" r="482.5"/>
+<path class="st16" d="M1439.9-151.2c247.2,20.9,441.3,228.2,441.3,480.8c0,252.6-194,459.8-441.2,480.8"/>
+<path class="st16" d="M1440,810.3c-13.6,1.2-27.4,1.7-41.3,1.7c-266.5,0-482.5-216-482.5-482.5s216-482.5,482.5-482.5
+	c13.9,0,27.6,0.6,41.2,1.7"/>
+</svg>
