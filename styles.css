@@ -526,8 +526,7 @@ button {
     }
     .card-column{
         width: 50%;
-        padding: 100px;
-
+        padding: 10px;
     }
     .card-top{
         height:240px;
