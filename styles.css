@@ -212,18 +212,20 @@ p{
 
 /* Design Investigation Page */
 
+.design-background-image{
+    background-image: url(assets/img/background-circles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
 .design-section-introduction{
     padding: 30px;
     margin-top: 110px;
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto; 
-
-    /* background-image: url(assets/img/background-circles.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
 }
 
 .solutions{
