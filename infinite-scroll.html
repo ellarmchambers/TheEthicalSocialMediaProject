@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
     <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
     <script src="script.js"></script> <!-- Link to JavaScript -->
@@ -21,7 +22,7 @@
 
     <div class="infinite-scroll">
         <div class="section-introduction"><!-- Section introduction -->
-            <div class="row">
+            <div class="row fadeInUp features-header-animation">
                 <h1>Infinite Scroll</h1> <!-- Header -->
                 <p>Infinite scroll is a feature that has been implemented into a variety of social media applications
                     and it allows users to swipe through endless content. It is used by applications such as Facebook,
@@ -32,8 +33,8 @@
 
         <div class="infinite-scroll-instagram feature-one"> <!-- Instagram Phone Screens -->
             <div class="container">
-                <div class="row row--flex"> 
-                    <div class="blurb"><!-- Feature content -->
+                <div class="row row--flex "> 
+                    <div class="blurb fadeInUp blurb-animation"><!-- Feature content -->
                         <h2>Instagram</h2> 
                         <p>Instagram recently implemented a new feature that informs the user when they have seen all
                             new content. This feature although beneficial, as it helps to inform the user, still
@@ -41,9 +42,8 @@
                             content. This message should be adapted so that the user must interact with it and make a
                             conscious decision.</p>
                         <p class="interactive-arrow">We are interactive <img src="assets/img/arrow-right.png" class="arrow"></p>
-
                     </div>
-                    <div>
+                    <div class="fadeInUp phone-animation">
                         <div class="phone"><!-- Setup of the first phone screen -->
                             <img src="assets/img/infinite-scroll/instagram-header.svg" alt="application image" class="phone-header"><br> 
                             <img src="assets/img/infinite-scroll/instagram-stories.svg" alt="application image"><br>
@@ -67,7 +67,7 @@
         <div class="infinite-scroll-facebook feature-two"> <!-- Facebook Phone Screens -->
             <div class="container">
                 <div class="row row--flex">
-                    <div class="blurb"><!-- Feature content -->
+                    <div class="blurb fadeInUp blurb-animation"><!-- Feature content -->
                         <h2>Facebook</h2>
                         <p>Facebook should implement a message that appears when the user has caught up on all new
                             content on their news feed. A user can then choose to leave the application or continue.
@@ -76,7 +76,7 @@
                             health. </p>
                         <p class="interactive-arrow">We are interactive <img src="assets/img/arrow-right.png" class="arrow"></p>
                     </div>
-                    <div>
+                    <div class="fadeInUp phone-animation">
                         <div class="phone"><!-- Setup of the first phone screen -->
                             <img src="assets/img/infinite-scroll/facebook-logo.svg" alt="application image"><br>
                             <img src="assets/img/infinite-scroll/facebook-header.svg" alt="application image" class="phone-header"><br>
@@ -99,7 +99,7 @@
         <div class="infinite-scroll-tiktok feature-three"> <!-- TikTok Phone Screens -->
             <div class="container">
                 <div class="row row--flex">
-                    <div class="blurb"><!-- Feature content -->
+                    <div class="blurb fadeInUp blurb-animation"><!-- Feature content -->
                         <h2>TikTok</h2>
                         <p>TikTok shows users an endless stream of short-form videos, to help reduce procrastination
                             TikTok should implement various pop-up messages that inform the user of the amount of time
@@ -108,7 +108,7 @@
                             user. </p>
                         <p class="interactive-arrow">We are interactive <img src="assets/img/arrow-right.png" class="arrow"></p>
                     </div>
-                    <div>
+                    <div class="fadeInUp phone-animation">
                         <div class="phone"><!-- Setup of the first phone screen -->
                             <img src="assets/img/infinite-scroll/tiktok-header.svg" alt="application image" class="phone-header"><br>
                             <img src="assets/img/infinite-scroll/tiktok-post.svg" alt="application image"><br>

@@ -1,0 +1,58 @@
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 10%, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+/* Landing Page */
+
+.logo-animation { animation-delay: 0.5s; }
+
+/* Ethical Investigation */
+
+.ethical-header-animation { animation-delay: 0.5s; }
+.ethical-section-animation { animation-delay: 1s; }
+
+/* Design Investigation */
+
+.design-header-animation { animation-delay: 0.5s; }
+.solutions-animation { animation-delay: 1s; }
+.card-top-row-animation { animation-delay: 1.5s; }
+.card-bottom-row-animation { animation-delay: 2s; }
+
+.card-column:hover{
+  transition: all 0.3s ease-out;
+  top: -8px;
+}
+
+.card-column{
+  transition: all 0.3s ease-out;
+}
+
+/* Features Page Animation */
+
+.features-header-animation { animation-delay: 0.5s; }
+.blurb-animation { animation-delay: 1s; }
+.phone-animation { animation-delay: 1.5s; }
+.notification-icon-animation { animation-delay: 1.5s; }
+
+/* Resources Page Animation */ 
+
+.resources-header-animation { animation-delay: 0.5s; }
+.references-animation { animation-delay: 1s; }
+
+
+
+
+
