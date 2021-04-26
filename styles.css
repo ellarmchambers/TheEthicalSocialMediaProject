@@ -190,7 +190,7 @@ p{
     margin-right: auto;
     margin-left: auto; 
 }
-
+ 
 .background-teal{
     background: rgba(53, 202, 218, 0.35);
     padding: 20px;
@@ -204,6 +204,11 @@ p{
 .background-blue{
     background: rgba(0, 114, 255, 0.25);
     padding: 20px;
+}
+
+.timeline{
+    width: 1200px;
+ 
 }
 
 /* Design Investigation Page */
@@ -492,6 +497,23 @@ button {
     bottom: 245px;
     left: 240px;
 }
+
+/* Resources */
+
+.resources-section-introduction{
+    padding: 30px;
+    margin-top: 110px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.resources-content{
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
 
 /* Media Queries */
 
