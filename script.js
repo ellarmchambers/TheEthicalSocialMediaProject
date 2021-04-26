@@ -1,14 +1,12 @@
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
+window.onscroll = function() {scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector(".nav-bar").style.backgroundColor = "#ffffff";
-    document.querySelector(".nav-design").style.padding = "20px 45px";
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) { //When scroll past 80px change the below styles
+    document.querySelector(".nav-bar").style.backgroundColor = "#ffffff"; //Setting white background
+    document.querySelector(".nav-design").style.padding = "20px 45px"; //Changing the ammount of padding on the nav items
     document.querySelector(".nav-ethical").style.padding = "20px 45px";
-    document.querySelector(".nav-logo").style.width = "60px";
+    document.querySelector(".nav-logo").style.width = "60px"; //Changing width of the logo
   } else {
-    document.querySelector(".nav-bar").style.backgroundColor = "transparent";
+    document.querySelector(".nav-bar").style.backgroundColor = "transparent"; 
     document.querySelector(".nav-design").style.padding = "35px 45px";
     document.querySelector(".nav-ethical").style.padding = "35px 45px";
     document.querySelector(".nav-logo").style.width = "90px";
@@ -34,7 +32,7 @@ function notifyMeOld(appold){ //function for old notifications
 function notifyMeNew(appnew) { //function for new notifications
   var button = document.getElementById(appnew)
   var audio = button.getElementsByTagName('audio')[0];
-  if (audio.paused) {
+  if (audio.paused) {  //allows audio to restart when button is click
     audio.play();
   }else{
     audio.currentTime = 0
