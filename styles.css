@@ -538,11 +538,29 @@ button {
     position:sticky;
     bottom:0;
 }
-.arrow{
+
+.interactive-arrow{
+    margin-top: 40px;
+}
+
+.arrow-right{
     position: absolute;
-    bottom: 245px;
+    bottom: 230px;
     left: 240px;
 }
+
+.arrow-down-tablet{
+    display: none;
+    position: absolute;
+    bottom: 45px;
+    left: 230px;
+}
+
+.arrow-down-phone{
+    display: none;
+    position: absolute;
+}
+
 
 /* Resources */
 
@@ -619,6 +637,12 @@ button {
     .timeline{
         width: 700px;
     }
+    .arrow-down-tablet{
+        display: block;
+    }
+    .arrow-right{
+        display: none;
+    }
 }
 
 @media (max-width: 380px) { /* iPhone 6/7/8 */
@@ -666,6 +690,14 @@ button {
         font-size: 35px;
     }
     .timeline{
+        display: none;
+    }
+    .arrow-down-phone{
+        display: block;
+        bottom: 45px;
+        left: 230px;
+    }
+    .arrow-right{
         display: none;
     }
 }
