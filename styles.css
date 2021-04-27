@@ -208,7 +208,42 @@ p{
 
 .timeline{
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* width: 100%; */
+  }
+  
+th{
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 0;
+    background-color: #2B0054;
+} 
+  
+td {
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    color: #782BA1;
+    margin: 0;
+}
+
+tr:nth-child(even){background-color: #ffffff}
+tr:nth-child(odd){background-color: #f2f2f2}
 
 /* Design Investigation Page */
 
@@ -470,6 +505,13 @@ button {
     padding-bottom: 40px;
 }
 
+.blurb-large{
+    width: 60%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
 .phone{ /* Styles of the phone screen shape */
     height: 680px;
     width: 330px;
@@ -527,7 +569,7 @@ button {
     }
 }
 
-@media (max-width: 770px){ /* iPad */
+@media (min-width: 381px) and (max-width: 770px){ /* iPad */
     .row--flex{
         flex-direction: column;
     }
@@ -574,6 +616,9 @@ button {
         margin-right: 20px;
         font-size: 35px;
     }
+    .timeline{
+        width: 700px;
+    }
 }
 
 @media (max-width: 380px) { /* iPhone 6/7/8 */
@@ -600,11 +645,11 @@ button {
     }
     .card-top{
         height:240px;
-        width: 100%;
+        width: 100% !important;
         box-sizing: border-box; 
     }
     .card-bottom{
-        width: 100%;
+        width: 100% !important;
         box-sizing: border-box;    
     }
     .nav-bar{
@@ -620,38 +665,8 @@ button {
         margin-right: 20px;
         font-size: 35px;
     }
+    .timeline{
+        display: none;
+    }
 }
 
-/* Table Experimentation */
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    /* width: 100%; */
-  }
-  
-th{
-    text-align: center;
-    padding: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 1em;
-    color: #ffffff;
-    margin: 0;
-    background-color: #2B0054;
-
-} 
-  
-td {
-    text-align: center;
-    padding: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 1em;
-    color: #2B0054;
-    margin: 0;
-
-}
-
-tr:nth-child(even){background-color: #ffffff}
-tr:nth-child(odd){background-color: #f2f2f2}
