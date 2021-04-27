@@ -1,4 +1,3 @@
-
 @keyframes fadeInUp {
     0% {
       opacity: 0;
@@ -51,8 +50,3 @@
 
 .resources-header-animation { animation-delay: 0.5s; }
 .references-animation { animation-delay: 1s; }
-
-
-
-
-

@@ -1,3 +1,5 @@
+//Nav Bar
+
 window.onscroll = function() {scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) { //When scroll past 80px change the below styles
@@ -12,6 +14,19 @@ function scrollFunction() {
     document.querySelector(".nav-logo").style.width = "90px";
   }
 }
+
+// Animations
+
+// window.onscroll = function() {scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
+// function scrollFunction() {
+//   if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) { 
+//     document.querySelector(".facebook").style.visability = "visible"; 
+//     document.querySelector(".facebook-phone").style.visability = "visible"; 
+// }
+// }
+
+
+//Notification Page
 
 function notifyMeOld(appold){ //function for old notifications
   var button = document.getElementById(appold)
