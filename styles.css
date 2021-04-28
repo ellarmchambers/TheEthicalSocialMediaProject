@@ -1,24 +1,18 @@
 body {
     margin: 0;
 }
+
+/* BACKGROUND IMAGE*/
+
 .home-html{
-    height: 100%;
+    height: 100%; /* Adding to HTML and setting width to 100% ensures the image will fit various screen sizes*/
     background-image: url(assets/img/background-circles-home.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; /* Covers the width of the page */
     background-position: center;
 }
 
-/* .home-body{
-    height: 100%;
-    background-image: url(assets/img/background-circles-home.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-} */
-
-/* Nav Bar */
+/* NAV BAR*/
 
 .nav-logo{
     float: left;
@@ -55,10 +49,9 @@ body {
 .nav-btn{
     display: none;
     color: #2B0054;
-
 }
 
-/* Footer */
+/* FOOTER */
 
 footer{
     background-color: #2B0054;
@@ -72,9 +65,9 @@ footer{
     font-size: 1.4em;
 }
 
-/* Fonts */
+/* TYPOGRAPHY */
 
-h1{
+h1{ /* Large headers - light purple */
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 4.5em; 
@@ -82,7 +75,7 @@ h1{
     margin: 0;
 }
 
-h2{
+h2{ /* Medium headers - green*/
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 3.5em;
@@ -90,7 +83,7 @@ h2{
     margin: 0;   
 }
 
-h3{
+h3{ /* Header font used for solutions text*/
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 4em;
@@ -98,7 +91,7 @@ h3{
     margin: 0;
 }
 
-h4{
+h4{ /* Header font used on cards*/
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 2em;
@@ -107,7 +100,7 @@ h4{
     line-height: 1.2;
 }
 
-h5{
+h5{ /* Large font used on home page */
     font-family: 'Poppins', 'sans-serif';
     font: weight 800;
     font-size: 8em;
@@ -115,49 +108,14 @@ h5{
     margin: 0;
 }
 
-p{
+p{ /* Body font */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: #2B0054;
     margin: 5; 
 }
 
-/* Background Circles */
-
-#circle-teal {
-    background: #35cada;
-    opacity: 35%;
-    border-radius: 50%;
-    width: 900px;
-    height: 900px;
-    position: absolute;
-    top: -500px;
-    left: -280px;  
-}
-
-#circle-purple {
-    background: #782BA1;
-    opacity: 35%;
-    border-radius: 50%;
-    width: 900px;
-    height: 900px;
-    position: absolute;
-    top: -200px;
-    right: -500px;   
-}
-
-#circle-blue {
-    background: #0072FF;
-    opacity: 35%;
-    border-radius: 50%;
-    width: 900px;
-    height: 900px;
-    position: absolute;
-    bottom: -600px;
-    left: 100px;   
-}
-
-/* Landing Page */
+/* HOME PAGE */
 
 .logo-home{
     margin-left: 50px;
@@ -184,7 +142,7 @@ p{
     color: #00848D;
 }
 
-/* Ethical Investigation Page */
+/* ETHICAL INVESTIGATION PAGE */
 
 .ethical-content{
     max-width: 1280px;
@@ -228,7 +186,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-  }
+}
   
 th{
     text-align: center;
@@ -254,7 +212,7 @@ td {
 tr:nth-child(even){background-color: #ffffff}
 tr:nth-child(odd){background-color: #f2f2f2}
 
-/* Design Investigation Page */
+/* DESIGN INVESTIGATION */
 
 .design-background-image{
     background-image: url(assets/img/background-circles.svg);
@@ -297,7 +255,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 .card-column{
     padding: 10px;
-    box-sizing: border-box; /* Adding box-sizing property here, so that padding and margin are part of the elements overall width/height */
+    box-sizing: border-box;
     display: block;
     top: 0px;
     position: relative;
@@ -343,7 +301,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     background: rgba(0, 114, 255, 0.35);   
 }
 
-/* Notification Page */
+/* NOTIFICATION PAGE */
 
 .application-icons{
     align-items: center;
@@ -455,7 +413,7 @@ button {
     background: rgba(0, 114, 255, 0.65);
 }
 
-/* Design Investigation - Features Page */
+/* FEATURES PAGES */
 
 .section-introduction{
     padding: 30px;
@@ -570,8 +528,7 @@ button {
     position: absolute;
 }
 
-
-/* Resources */
+/* RESOURCES */
 
 .resources-section-introduction{
     padding: 30px;
@@ -587,14 +544,15 @@ button {
     margin-left: auto; 
 }
 
-
-/* Media Queries */
+/* MEDIA QUERIES */
 
 @media (max-width: 1200px) {
     .blurb {
         width: 100%;
     }
 }
+
+/* MEDIA QUERIES - TABLET */
 
 @media (min-width: 381px) and (max-width: 770px){ /* iPad */
     .row--flex{
@@ -653,6 +611,8 @@ button {
         display: none;
     }
 }
+
+/* MEDIA QUERIES - PHONE */
 
 @media (max-width: 380px) { /* iPhone 6/7/8 */
     .row--flex {
