@@ -218,7 +218,7 @@ table {
     margin-right: auto;
     border-collapse: collapse;
     border-spacing: 0;
-    /* width: 100%; */
+    width: 100%;
   }
   
 th{
@@ -229,7 +229,7 @@ th{
     font-size: 1em;
     color: #ffffff;
     margin: 0;
-    background-color: #2B0054;
+    background-color: #2B0054;   
 } 
   
 td {
