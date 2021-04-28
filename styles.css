@@ -1,13 +1,22 @@
 body {
     margin: 0;
 }
-
-.home-body{
+.home-html{
+    height: 100%;
     background-image: url(assets/img/background-circles-home.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+/* .home-body{
+    height: 100%;
+    background-image: url(assets/img/background-circles-home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+} */
 
 /* Nav Bar */
 
