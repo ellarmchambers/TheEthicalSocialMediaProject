@@ -550,6 +550,9 @@ button {
     .blurb {
         width: 100%;
     }
+    .blurb-large {
+        width: 100%;
+    }
 }
 
 /* MEDIA QUERIES - TABLET */
