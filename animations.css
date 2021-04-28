@@ -46,6 +46,8 @@
 .phone-animation { animation-delay: 1.5s; }
 .notification-icon-animation { animation-delay: 1.5s; }
 
+.test-animation { animation-delay: 10s; }
+
 /* Resources Page Animation */ 
 
 .resources-header-animation { animation-delay: 0.5s; }

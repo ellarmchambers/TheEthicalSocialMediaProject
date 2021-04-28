@@ -20,10 +20,26 @@ function scrollFunction() {
 // window.onscroll = function() {scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
 // function scrollFunction() {
 //   if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) { 
-//     document.querySelector(".facebook").style.visability = "visible"; 
-//     document.querySelector(".facebook-phone").style.visability = "visible"; 
+//     document.querySelector(".facebook").style.opacity = "1";
+
 // }
 // }
+
+// window.onscroll = function() {scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
+// function scrollFunction() {
+//   if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) { 
+//     document.querySelector(".facebook").style.display = "block";
+//     document.querySelector(".facebook-phone").style.display = "block";
+// }
+// }
+
+window.onscroll = function() {scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
+function scrollFunction() {
+  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) { 
+    document.querySelector(".facebook").style.visibility = "visible"; 
+    document.querySelector(".facebook-phone").style.visibility = "visible"; 
+}
+}
 
 
 //Notification Page
