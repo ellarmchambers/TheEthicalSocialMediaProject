@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
     <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="script.js"></script> <!-- Link to JavaScript -->
     <title>Negative Content</title> <!-- Page title -->
 </head>
  
@@ -19,11 +18,8 @@
         <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a> <!-- Link to Ethical Investigation -->
         <a href="index.html" id="logo" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a> <!-- Project Logo and Home Page link -->
     </div>
-
-
-    
         <div class="section-introduction"><!-- Section introduction -->
-            <div class="row">
+            <div class="row fadeInUp features-header-animation">
                 <h1>Negative Content</h1> <!-- Header -->
                 <p>People often turn to social media when they want to be entertained or feel connected with others and in times of low mood it is even more crucial that these platforms can provide the user with a form of escape. This however is not always the case with social media sometimes showing the user content that could be triggering or harmful to their mental health.</p>
             </div>
@@ -32,7 +28,7 @@
     <div class="negative-content">
         <div class="post-warnings feature-one"> <!-- Instagram Phone Screens -->
             <div class="container">
-                <div class="row row--flex"> 
+                <div class="row row--flex fadeInUp feautre-animation"> 
                     <div class="blurb-large"><!-- Feature content -->
                         <h2>Post Warnings</h2> 
                         <p>To combat the issue of triggering content or ‘fake news’ Facebook could implement a feature that would label a post if it included misleading or incorrect information, this would then help to warn users of false information and other deceptive content and ensure that the user is fully aware that the content of the post could be misleading. </p>
@@ -53,7 +49,7 @@
 
         <div class="content-settings feature-two"> <!-- Facebook Phone Screens -->
             <div class="container">
-                <div class="row row--flex">
+                <div class="row row--flex hide-row" id="feature-two-row">
                     <div class="blurb"><!-- Feature content -->
                         <h2>Content Settings</h2>
                         <p>To ensure that a user does not come across content that could be harmful to their mental health, applications like Instagram and Facebook should implement a setting that gives the user the ability to filter out certain words, phrases or hashtags that could be triggering to their mental state. The user could then choose how often they want to review the filter and could add or remove words at any point. </p>
@@ -72,7 +68,7 @@
 
         <div class="low-mood feature-three"> <!-- TikTok Phone Screens -->
             <div class="container">
-                <div class="row row--flex">
+                <div class="row row--flex hide-row" id="feature-three-row">
                     <div class="blurb"><!-- Feature content -->
                         <h2>Low Mood</h2>
                         <p>When in a low state a user may not want to see certain content on their Instagram feed as it may intensify their low mood. The ‘Low Mood’ feature filters out specific content and allows the user to see a stripped back version of their normal feed. The settings would allow the user to select which users they would want to see posts from and would let them filter out any specific content that could be triggering to them. </p>
@@ -94,6 +90,9 @@
     <footer>
         <a href="resources.html" class="footer-item" style="text-decoration: none;">Resources</a> <!-- Footer -->
     </footer>
+
+    <script src="animate.js"></script> <!-- Link to Animation JavaScript -->
+    <script src="script.js"></script> <!-- Link to JavaScript -->
 
 </body>
 
