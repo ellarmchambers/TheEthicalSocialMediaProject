@@ -1,7 +1,5 @@
 // On Scroll Animations
-
-var featureTwoRow = document.querySelector('#feature-two-row');
-var featureThreeRow = document.querySelector('#feature-three-row');
+var testingAnimation = document.querySelector('#testing-animation')
 
 function animateOnScroll(element){
   element.classList.remove('hide-row');
@@ -9,11 +7,11 @@ function animateOnScroll(element){
 }
 
 window.onscroll = function() {
-  
-  if (document.documentElement.scrollTop > 600 && document.documentElement.scrollTop < 1400) { 
-    animateOnScroll(featureTwoRow);
-  } else if (document.documentElement.scrollTop > 1400){
-    animateOnScroll(featureThreeRow);
+
+  if (document.documentElement.scrollTop > 1200 && document.documentElement.scrollTop < 2000) { 
+    animateOnScroll(testingAnimation);
+  } else if (document.documentElement.scrollTop > 2000){
+    console.log("yes");
   }
 
 //Nav Bar

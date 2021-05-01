@@ -46,7 +46,10 @@
 /* Features Page Animation */
 
 .features-header-animation { animation-delay: 0.5s; }
-.feautre-animation { animation-delay: 1s; }
+.feature-animation { animation-delay: 1s; }
+
+.blurb-animation { animation-delay: 1s; }
+.notification-icon-animation { animation-delay: 1.5s; }
 
 /* Resources Page Animation */ 
 
