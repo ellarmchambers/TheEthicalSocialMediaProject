@@ -8,19 +8,16 @@
     <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <title>Ethical Investigation</title> <!-- Page title -->
 </head>
 
 <body>
     <header class="circles-background-image">
-    <div id="nav-bar" class="nav-bar"><!-- Setting up navigation -->
-        <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
-        <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
-        <a href="index.html" id="logo" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a>
-    </div>
-
-
+        <div id="nav-bar" class="nav-bar"><!-- Setting up navigation -->
+            <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
+            <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
+            <a href="index.html" id="logo" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a>
+        </div>
         <div class="ethical-section-introduction fadeInUp resources-header-animation"><!-- Introduction to Ethical Investigation -->
             <h1>Ethical Investigation</h1>
             <p>Nowadays with technology on the rise and phones becoming a larger part of day-to-day life there are a
@@ -32,15 +29,15 @@
                 applications and their problematic features.</p>
         </div>
     </header>
-    <div class="ethical-investigation">
 
+    <div class="ethical-investigation">
         <div class="background-teal">
             <div class="features-of-sm ethical-content fadeInUp ethical-section-animation">
                 <h1>The Features of Social Media</h1>
                 <p>The table below shows some of the features that are shared between 10 of the most popular social media applications. All of these platforms were created with different functions in mind but with regular updates and features being added frequently these applications are becoming more alike, creating a very similar user experience and one that can often have a negative impact on the user’s mental health.</p>
             </div>
 
-            <div class="features-table ethical-content" style="overflow-x:auto;">
+            <div class="features-table ethical-content fadeInUp ethical-section-animation" style="overflow-x:auto;">
                 <table class="table">
                     <thead>
                         <tr>
@@ -143,7 +140,7 @@
         </div>
 
         <div class="background-white">
-            <div class="adoption-of-features ethical-content">
+            <div class="adoption-of-features ethical-content hide-row" id="testing-animation">
                 <h2>The Adoption of Popular Features</h2>
                 <p>Some of these very popular features used to be particular to one application but over time have been adopted by various other platforms.</p>
                 <p>‘Stories’ were created by Snapchat in 2013 (O'Connell, 2020) and have since been implemented by 5 other applications, they all work in a very similar way and allow users to share snippets and highlights of their day with their followers, and the content then disappears after a limited amount of time. Features like ‘Stories’ have added another element for users to interact with and the time limit aspect has had a negative effect by causing greater addiction due to users not wanting to miss out on content posted by those they follow.</p>
@@ -216,6 +213,9 @@
     <footer>
         <a href="resources.html" class="footer-item" style="text-decoration: none;">Resources</a>
     </footer>
+
+    <script src="animate-ethical.js"></script> <!-- Link to Animation JavaScript -->
+    <script src="script.js"></script> <!-- Link to JavaScript -->
 
 </body>
 

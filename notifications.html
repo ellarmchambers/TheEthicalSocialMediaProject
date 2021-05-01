@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,18 +8,17 @@
     <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap"rel="stylesheet">
     <title>Notifications</title> <!-- Page title -->
 </head>
 
 <body>
     <header class="circles-background-image">
-    <div id="nav-bar" class="nav-bar"><!-- Setting up navigation -->
-        <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
-        <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
-        <a href="index.html" id="logo" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a>
-        <!-- <a href="#" class="nav-btn"><i class="fas fa-bars"></i></a> -->
-    </div>
+        <div id="nav-bar" class="nav-bar"> <!-- Setting up navigation -->
+            <a href="design-investigation.html" class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
+            <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
+            <a href="index.html" id="logo" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a> <!-- <a href="#" class="nav-btn"><i class="fas fa-bars"></i></a> -->
+        </div>
         <div class="section-introduction">
             <div class="row fadeInUp features-header-animation">
                 <h1>Notifications</h1>
@@ -51,18 +50,16 @@
                         <div class="grid-container fadeInUp notification-icon-animation">
                             <div class="grid-item">
                                 <div class="application-button">
-                                    <button class="button-green" id="facebook-sound"
-                                        onclick="notifyMeOld('facebook-sound')">
+                                    <button class="button-green" id="facebook-sound" onclick="notifyMeOld('facebook-sound')">
                                         <i class="fab fa-facebook-f fa-4x"></i>
-                                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio><!-- Calling on the audio -->
+                                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio> <!-- Calling on the audio -->
                                         <div id="application-badge-old" class="application-badge-old"></div>
                                     </button>
                                 </div>
                             </div>
                             <div class="grid-item">
                                 <div class="application-button">
-                                    <button class="button-purple" id="messenger-sound"
-                                        onclick="notifyMeOld('messenger-sound')">
+                                    <button class="button-purple" id="messenger-sound" onclick="notifyMeOld('messenger-sound')">
                                         <i class="fab fa-facebook-messenger fa-4x"></i>
                                         <audio id="audio" src="assets/audio/messenger-sound.mp3"></audio>
                                         <div id="application-badge-old" class="application-badge-old"></div>
@@ -111,6 +108,7 @@
     </footer>
 
     <script src="script.js"></script>
+    
 </body>
 
 </html>
