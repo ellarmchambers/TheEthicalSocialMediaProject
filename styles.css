@@ -524,6 +524,12 @@ button {
     left: 240px;
 }
 
+.arrow-right-single-feature{
+    position: absolute;
+    bottom: 345px;
+    left: 200px;
+}
+
 .arrow-down-tablet{
     display: none;
     position: absolute;
