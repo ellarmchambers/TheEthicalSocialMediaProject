@@ -199,15 +199,18 @@ p{ /* Body font */
     margin: 0;
     background-color: #2B0054;   
 }
-
-td {
+td{
     text-align: center;
     padding: 8px;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #782BA1;
     margin: 0;
+}
+.title{
+    color:#2B0054;  
+    font-size: 1em;
 }
 
 .table tbody tr:last-of-type {
@@ -219,7 +222,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 /* DESIGN INVESTIGATION */
 
-.design-background-image{
+.circles-background-image{
     background-image: url(assets/img/background-circles.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,14 +232,14 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 .design-section-introduction{
     padding: 30px;
-    margin-top: 110px;
+    padding-top: 110px;
+    padding-bottom: 50px;
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto; 
 }
 
 .solutions{
-    margin-top: 50px;
     background: rgba(53, 202, 218, 0.35);
     padding: 20px;
     text-align: center;
@@ -422,7 +425,7 @@ button {
 
 .section-introduction{
     padding: 30px;
-    margin-top: 110px;   
+    padding-top: 110px;  
 }
 
 .feature-one{
