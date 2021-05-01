@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
     <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="script.js"></script> <!-- Link to JavaScript -->
     <title>Edited Images</title> <!-- Page title -->
 </head>
 
@@ -21,17 +20,16 @@
     </div>
   
         <div class="section-introduction"><!-- Section introduction -->
-            <div class="row">
+            <div class="row fadeInUp features-header-animation">
                 <h1>Edited Images</h1> <!-- Header -->
                 <p>One of the most popular features across a variety of social media applications is photo sharing. The dark side of this feature is that it encourages users to present the best versions of themselves and leads to people sharing the ‘highlights’ of their ‘perfect’ lives. This is having a detrimental effect on mental health especially in younger users who are experiencing high levels of anxiety, body issues and FOMO. </p>
             </div>
         </div>
     </header>
-    <div class="infinite-scroll">
-
+    <div class="edited-images">
         <div class="post-labels feature-one"> <!-- Instagram Phone Screens -->
             <div class="container">
-                <div class="row row--flex"> 
+                <div class="row row--flex fadeInUp feautre-animation"> 
                     <div class="blurb-large"><!-- Feature content -->
                         <h2>Post Labels</h2> 
                         <p>Instagram should implement a feature that labels images to show if they have been edited in some way. This would appear on posts and would help to make users aware of when an image has been altered and hopefully reduce the negative impact that other people’s posts may have on a user’s self-confidence. </p>
@@ -53,7 +51,7 @@
 
         <div class="posting-process feature-two"> <!-- Facebook Phone Screens -->
             <div class="container">
-                <div class="row row--flex">
+                <div class="row row--flex hide-row" id="feature-two-row">
                     <div class="blurb-large"><!-- Feature content -->
                         <h2>Posting Process</h2>
                         <p>The edited labels would work by adding a new step to the uploading process on Instagram. If a user made use of Instagram’s built-in filters or editing tools then these toggles would automatically be turned on and if they edited their photo elsewhere they would switch the toggles themselves. </p>
@@ -72,6 +70,9 @@
     <footer>
         <a href="resources.html" class="footer-item" style="text-decoration: none;">Resources</a> <!-- Footer -->
     </footer>
+
+    <script src="animate.js"></script> <!-- Link to Animation JavaScript -->
+    <script src="script.js"></script> <!-- Link to JavaScript -->
 
 </body>
 
