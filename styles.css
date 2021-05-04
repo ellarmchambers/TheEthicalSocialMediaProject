@@ -559,7 +559,7 @@ button {
 .arrow-down-tablet{
     display: none;
     position: absolute;
-    bottom: 45px;
+    bottom: 755px;
     left: 230px;
 }
 
@@ -725,7 +725,7 @@ button {
     }
     .arrow-down-phone{
         display: block;
-        bottom: 45px;
+        bottom: 1465px;
         left: 230px;
     }
     .arrow-down-single-feature-phone{
