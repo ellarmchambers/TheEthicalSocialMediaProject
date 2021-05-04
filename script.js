@@ -29,7 +29,7 @@ function notifyMeNew(appnew) { //function for new notifications
 
 //Infinite Scroll Page
 
-var section = document.getElementsByClassName('tiktok-infinite')[0]
+var section = document.getElementsByClassName('tiktok-infinite')[0] //Setting the loop for the TikTok infinite scroll example
 section.addEventListener('scroll', () => {
   // console.log(section.scrollTop, (section.scrollHeight - section.clientHeight));
   if (section.scrollTop == 691){
