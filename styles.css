@@ -514,6 +514,32 @@ button {
     bottom:0;
 }
 
+/* TIKTOK SCROLL */
+
+.tiktok-scroll::-webkit-scrollbar { /* Removes the scroll bar */
+    display: none;
+}
+
+.tiktok-scroll {
+    height: 680px;
+    width: 330px;
+    border: 3px solid black;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(3rem);
+    scroll-snap-type: y mandatory;   
+}
+
+.tiktok-post {
+    background-color: white;
+    scroll-snap-align: start;
+}
+
 .interactive-arrow{
     margin-top: 40px;
 }
@@ -714,4 +740,5 @@ button {
         display: none;
     }
 }
+
 
