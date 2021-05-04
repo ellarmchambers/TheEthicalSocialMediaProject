@@ -26,3 +26,14 @@ function notifyMeNew(appnew) { //function for new notifications
   }
   button.getElementsByClassName('application-badge-new')[0].style.display = 'block'; //shows badge on click
 }
+
+//Infinite Scroll Page
+
+var section = document.getElementsByClassName('tiktok-infinite')[0]
+section.addEventListener('scroll', () => {
+  // console.log(section.scrollTop, (section.scrollHeight - section.clientHeight));
+  if (section.scrollTop == 691){
+    section.scrollTop = 0;
+    
+  }
+})
