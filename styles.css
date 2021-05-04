@@ -537,10 +537,23 @@ button {
     left: 230px;
 }
 
+.arrow-down-single-feature-tablet{
+    display: none;
+    position: absolute;
+    bottom: 755px;
+    left: 200px;
+}
+
 .arrow-down-phone{
     display: none;
     position: absolute;
 }
+
+.arrow-down-single-feature-phone{
+    display: none;
+    position: absolute;
+}
+
 
 /* RESOURCES */
 
@@ -624,9 +637,15 @@ button {
     .arrow-down-tablet{
         display: block;
     }
+    .arrow-down-single-feature-tablet{
+        display: block;
+    }
     .arrow-right{
         display: none;
-    }
+    }  
+    .arrow-right-single-feature{
+        display: none;
+    } 
 }
 
 /* MEDIA QUERIES - PHONE */
@@ -683,7 +702,15 @@ button {
         bottom: 45px;
         left: 230px;
     }
+    .arrow-down-single-feature-phone{
+        display: block;
+        bottom: 755px;
+        left: 200px;
+    }
     .arrow-right{
+        display: none;
+    }
+    .arrow-right-single-feature{
         display: none;
     }
 }
