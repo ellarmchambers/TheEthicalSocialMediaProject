@@ -739,6 +739,12 @@ button {
     .arrow-right-single-feature{
         display: none;
     }
+    h5{
+        font-size: 5em;
+    }
+    .logo-home{
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 415px) { /* iPhone 6/7/8 */
@@ -803,6 +809,12 @@ button {
     }
     .arrow-right-single-feature{
         display: none;
+    }
+    h5{
+        font-size: 5em;
+    }
+    .logo-home{
+        margin-left: 20px;
     }
 }
 
