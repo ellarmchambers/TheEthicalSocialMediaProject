@@ -3,8 +3,6 @@
 var featureTwoRow = document.querySelector('#feature-two-row');
 var featureThreeRow = document.querySelector('#feature-three-row');
 
-var testingAnimation = document.querySelector('#testing-animation')
-
 function animateOnScroll(element){
   element.classList.remove('hide-row');
   element.classList.add('fadeInUp');
