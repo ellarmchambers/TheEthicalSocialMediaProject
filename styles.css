@@ -610,7 +610,7 @@ button {
 
 /* MEDIA QUERIES - TABLET */
 
-@media (min-width: 381px) and (max-width: 770px){ /* iPad */
+@media (min-width: 416px) and (max-width: 770px){ /* iPad */
     .row--flex{
         flex-direction: column;
     }
@@ -677,6 +677,71 @@ button {
 /* MEDIA QUERIES - PHONE */
 
 @media (max-width: 380px) { /* iPhone 6/7/8 */
+    .row--flex {
+        flex-direction: column;
+    }
+    .notification-blurb{
+        width: 100%;
+    }
+    .grid-container{
+        grid-gap: 8px 1px;  /* 8px to left and right, 1px to top and bottom */
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 2em;
+    }
+    .flex-grid{
+        flex-direction: column;
+    }
+    .card-top{
+        height:240px;
+        width: 100% !important;
+        box-sizing: border-box; 
+    }
+    .card-bottom{
+        width: 100% !important;
+        box-sizing: border-box;    
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-bar .nav-btn{
+        display: block;
+        margin-right: 20px;
+        font-size: 35px;
+    }
+    .timeline{
+        display: none;
+    }
+    .arrow-down-phone{
+        display: block;
+        bottom: 1465px;
+        left: 230px;
+    }
+    .arrow-down-single-feature-phone{
+        display: block;
+        bottom: 755px;
+        left: 200px;
+    }
+    .arrow-right{
+        display: none;
+    }
+    .arrow-right-single-feature{
+        display: none;
+    }
+}
+
+@media (max-width: 415px) { /* iPhone 6/7/8 */
     .row--flex {
         flex-direction: column;
     }
