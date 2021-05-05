@@ -676,8 +676,6 @@ button {
 
 /* MEDIA QUERIES - PHONE */
 
-
-
 @media (max-width: 393px) { /* iPhone 6/7/8 */
     .row--flex {
         flex-direction: column;
@@ -819,7 +817,6 @@ button {
         margin-left: 20px;
     }
 }
-
 
 @media (max-width: 360px) { /* iPhone 6/7/8 */
     .row--flex {

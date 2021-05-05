@@ -1,27 +1,3 @@
-// Nav Bar - Small Menu
-
-window.addEventListener('DOMContentLoaded', ()=>{
-
-//Nav Bar Mobile
-
-var btn = document.querySelector('.mobileNavBTN');
-var menu = document.querySelector('.menu');
-
-btn.addEventListener('click', ()=>{
-  menu.classList.toggle('hide');
-});
-
-window.addEventListener('resize', ()=>{
-  if(window.innerWidth > 770){
-      btn.classList.add('hide');
-      menu.classList.remove('hide');
-  } else if(window.innerWidth < 770){
-      btn.classList.remove('hide');
-      menu.classList.add('hide');
-    }
-  });
-});
-
 //Notification Page
 
 function notifyMeOld(appold){ //function for old notifications
