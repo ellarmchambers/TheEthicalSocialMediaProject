@@ -1,3 +1,27 @@
+// Nav Bar - Small Menu
+
+window.addEventListener('DOMContentLoaded', ()=>{
+
+//Nav Bar Mobile
+
+var btn = document.querySelector('.mobileNavBTN');
+var menu = document.querySelector('.menu');
+
+btn.addEventListener('click', ()=>{
+  menu.classList.toggle('hide');
+});
+
+window.addEventListener('resize', ()=>{
+  if(window.innerWidth > 770){
+      btn.classList.add('hide');
+      menu.classList.remove('hide');
+  } else if(window.innerWidth < 770){
+      btn.classList.remove('hide');
+      menu.classList.add('hide');
+    }
+  });
+});
+
 //Notification Page
 
 function notifyMeOld(appold){ //function for old notifications
@@ -27,7 +51,7 @@ function notifyMeNew(appnew) { //function for new notifications
   button.getElementsByClassName('application-badge-new')[0].style.display = 'block'; //shows badge on click
 }
 
-//Infinite Scroll Page
+//Infinite Scroll Page - TikTok
 
 var section = document.getElementsByClassName('tiktok-infinite')[0] //Setting the loop for the TikTok infinite scroll example
 section.addEventListener('scroll', () => {
