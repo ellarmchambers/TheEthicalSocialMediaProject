@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
     <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,9 +15,16 @@
 <body>
     <header class="circles-background-image">
         <div id="nav-bar" class="nav-bar"><!-- Setting up navigation -->
-            <a href="design-investigation.html" class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
-            <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
-            <a href="index.html" id="logo" class="nav-logo"><img src="assets/img/logo.svg" alt="logo"></a>
+            <a href="index.html" id="logo" class="nav-logo">
+                <img src="assets/img/logo.svg" alt="logo">
+            </a>
+            <button class="mobileNavBTN hide" type="button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="menu">
+                <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
+                <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
+            </nav>
         </div>
         <div class="design-section-introduction fadeInUp design-header-animation"><!-- Introduction to Design Investigation -->
             <h1>Design Investigation</h1>
@@ -116,7 +124,7 @@
         <a href="resources.html" class="footer-item" style="text-decoration: none;">Resources</a>
     </footer>
 
-    <script src="animate-design.js"></script> <!-- Link to Animation JavaScript -->
+    <script src="animate-design-investigation.js"></script> <!-- Link to Animation JavaScript -->
     <script src="script.js"></script> <!-- Link to JavaScript -->
 
 </body>
