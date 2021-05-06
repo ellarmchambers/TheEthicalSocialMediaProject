@@ -652,6 +652,11 @@ button {
     .card-bottom{
         box-sizing: border-box;    
     }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .timeline{
         width: 700px;
     }
@@ -666,6 +671,45 @@ button {
     }  
     .arrow-right-single-feature{
         display: none;
+    } 
+    h5{
+        font-size: 6em;
+    }
+    .logo-home{
+        margin-left: 20px;
+    }
+    button.mobileNavBTN{ /* Mobile Navigation Menu */
+        width: 48px;
+        height: 48px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-right: 10px;
+        position: relative;
+        z-index: 500000000;
+        color: #2B0054 !important;
+        background-color: transparent;
+    }
+    .menu{
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        background-color: white;
+        top: 100px;
+    }
+    .menu > a:first-child {
+        border-bottom: 2px solid #ccc;
+    }
+    .menu > a:hover{
+        background-color: #ccc;
+    }
+    .nav-bar{
+        overflow: visible;
+        background-color: #ffffff;
+    }
+    .nav-item{
+        font-size: 1.5em;
+        float: none;
+        padding: 20px 45px;
     } 
 }
 
@@ -732,10 +776,7 @@ button {
     .logo-home{
         margin-left: 20px;
     }
-
-/* Mobile Navigation Menu */
-
-    button.mobileNavBTN{
+    button.mobileNavBTN{ /* Mobile Navigation Menu */
         width: 48px;
         height: 48px;
         border-radius: 15px;
@@ -767,11 +808,7 @@ button {
         font-size: 1.5em;
         float: none;
         padding: 20px 45px;
-    }
-    /* .nav-logo{
-        width: 60px;
-    } */
-    
+    } 
 }
 
 
