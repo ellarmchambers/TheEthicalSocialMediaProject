@@ -26,4 +26,4 @@ window.onscroll = function() {
         document.querySelector(".nav-bar").style.backgroundColor = "transparent"; 
       }
     }
-} 
+}
