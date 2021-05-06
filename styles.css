@@ -52,7 +52,11 @@ body {
 
 .fa-bars:before {
     color: #2B0054;
+    z-index: 600;
     font-size: 2em;
+}
+.fa-bars{
+    z-index: 600;
 }
 
 /* FOOTER */
@@ -638,7 +642,7 @@ button {
         flex: wrap;
     }
     .card-column{
-        /* width: 50%; */
+        width: 50%;
         padding: 10px;
     }
     .card-top{
@@ -728,17 +732,15 @@ button {
     .logo-home{
         margin-left: 20px;
     }
-
-/* Mobile Navigation Menu */
-
-    button.mobileNavBTN{
+    button.mobileNavBTN{ /* Mobile Navigation Menu */
         width: 48px;
         height: 48px;
         border-radius: 15px;
         padding: 10px;
         margin-right: 10px;
         position: relative;
-        z-index: 10000000;
+        z-index: 500000000;
+        color: #2B0054 !important;
         background-color: transparent;
     }
     .menu{
@@ -762,11 +764,7 @@ button {
         font-size: 1.5em;
         float: none;
         padding: 20px 45px;
-    }
-    /* .nav-logo{
-        width: 60px;
-    } */
-    
+    }   
 }
 
 
