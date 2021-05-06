@@ -22,6 +22,8 @@ window.onscroll = function() {
         document.querySelector(".nav-ethical").style.fontSize = "1.8em";
         document.querySelector(".nav-logo").style.width = "90px";
       }
-      document.querySelector(".nav-bar").style.backgroundColor = "transparent"; 
+      if (document.querySelector('.menu').classList.contains('hide') || window.innerWidth > 770){
+        document.querySelector(".nav-bar").style.backgroundColor = "transparent"; 
+      }
     }
 }

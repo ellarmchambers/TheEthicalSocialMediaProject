@@ -732,7 +732,10 @@ button {
     .logo-home{
         margin-left: 20px;
     }
-    button.mobileNavBTN{ /* Mobile Navigation Menu */
+
+/* Mobile Navigation Menu */
+
+    button.mobileNavBTN{
         width: 48px;
         height: 48px;
         border-radius: 15px;
@@ -764,7 +767,11 @@ button {
         font-size: 1.5em;
         float: none;
         padding: 20px 45px;
-    }   
+    }
+    /* .nav-logo{
+        width: 60px;
+    } */
+    
 }
 
 
