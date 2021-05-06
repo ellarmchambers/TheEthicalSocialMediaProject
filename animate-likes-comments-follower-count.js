@@ -1,4 +1,6 @@
-// On Scroll Animations
+//ANIMATION - LIKES, COMMENTS & FOLLOWER COUNT PAGE
+
+// Features - onscroll animation
 
 var featureTwoRow = document.querySelector('#feature-two-row');
 var featureThreeRow = document.querySelector('#feature-three-row');
@@ -16,7 +18,7 @@ window.onscroll = function() {
     animateOnScroll(featureThreeRow);
   }
   
-//Nav Bar
+//Nav Bar - onscroll animation
 
   scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
   function scrollFunction() {

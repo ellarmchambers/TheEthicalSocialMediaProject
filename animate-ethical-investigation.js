@@ -1,4 +1,7 @@
-// On Scroll Animations
+//ANIMATION - ETHICAL INVESTIGATION PAGE
+
+// Sections - onscroll animation
+
 var adoptionFeatures1Animation = document.querySelector('#adoption-features1-animation')
 var adoptionFeaturesTimeline1Animation = document.querySelector('#adoption-features-timeline1-animation')
 var adoptionFeatures2Animation = document.querySelector('#adoption-features2-animation')
@@ -43,7 +46,7 @@ window.onscroll = function() {
   }
   
 
-//Nav Bar
+//Nav Bar - onscroll animation
 
   scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar
   function scrollFunction() {
