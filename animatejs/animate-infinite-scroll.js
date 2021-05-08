@@ -47,11 +47,30 @@ window.onscroll = function() {
 
 // TikTok Scroll animation
 
+
+//ORIGINAL LOOP CODE 
+
+// var section = document.getElementsByClassName('tiktok-infinite')[0] //Setting the loop for the TikTok infinite scroll example
+// section.addEventListener('scroll', () => {
+//   if (section.scrollTop == 691){
+//     section.scrollTop = 0;
+//   }
+// })
+
 var section = document.getElementsByClassName('tiktok-infinite')[0] //Setting the loop for the TikTok infinite scroll example
 section.addEventListener('scroll', () => {
-  // console.log(section.scrollTop, (section.scrollHeight - section.clientHeight));
-  if (section.scrollTop == 691){
+   console.log(section.scrollTop, section.clientHeight);
+  if (section.scrollTop + section.clientHeight >= section.scrollHeight - 10){
     section.scrollTop = 0;
-    
   }
 })
+
+// EXAMPLE CODE
+
+// jQuery(function($) {
+//   $('#flux').on('scroll', function() {
+//       if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+//           alert('end reached');
+//       }
+//   })
+// });
