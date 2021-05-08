@@ -616,6 +616,16 @@ button {
     }
 }
 
+@media (min-width: 1600px) and (max-width: 2000px){ 
+    h5{
+        font-size: 10em; /* Increasing Logo size on landing page on larger screens */
+    }
+    .logo-home{
+        margin-left: 50px;
+        margin-top: 180px;
+    }
+}
+
 /* MEDIA QUERIES - TABLET */
 
 @media (min-width: 501px) and (max-width: 770px){ /* iPad */
