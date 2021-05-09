@@ -21,6 +21,8 @@
 /* Landing Page */
 
 .logo-animation { animation-delay: 0.5s; }
+.nav-item-one-animation { animation-delay: 1s; }
+.nav-item-two-animation { animation-delay: 1.5s; }
 
 /* Ethical Investigation */
 
