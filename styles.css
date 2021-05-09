@@ -63,14 +63,21 @@ body {
 
 footer{
     background-color: #2B0054;
-    padding: 20px;
 }
 
 .footer-item{
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
     color: #ffffff;
-    font-size: 1.4em;
+    font-size: 1.5em;
+}
+
+.footer-bar{
+    max-width: 1280px;
+    width: 86%;
+    margin: auto;
+    padding: 20px 0;
 }
 
 /* TYPOGRAPHY */
@@ -120,7 +127,7 @@ p{ /* Body font */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: #2B0054;
-    margin: 5; 
+    /* margin: 5;  */
 }
 
 /* HOME PAGE */
@@ -152,37 +159,38 @@ p{ /* Body font */
 
 /* ETHICAL INVESTIGATION PAGE */
 
-.ethical-content{
+.ethical-section-introduction{
+    padding: 140px 20px 80px 20px;
     max-width: 1280px;
+    width: 86%;
+    box-sizing: border-box;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;   
 }
 
-.ethical-section-introduction{
-    padding: 30px;
-    padding-top: 110px;
+.ethical-content{
     max-width: 1280px;
+    width: 86%;
     margin-right: auto;
     margin-left: auto; 
+    padding: 40px 20px 60px 20px;
+    box-sizing: border-box;
 }
  
 .background-teal{
     background: rgba(53, 202, 218, 0.35);
-    padding: 20px;
 }
 
 .background-white{
     background: rgba(255, 255, 255);
-    padding: 20px;
 }
 
 .background-blue{
     background: rgba(0, 114, 255, 0.25);
-    padding: 20px;
 }
 
 .timeline{
-    width: 1200px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -197,6 +205,7 @@ p{ /* Body font */
     margin: 10px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
 }
+
 .table thead th {
     text-align: center;
     padding: 8px;
@@ -207,6 +216,7 @@ p{ /* Body font */
     margin: 0;
     background-color: #2B0054;   
 }
+
 td{
     text-align: center;
     padding: 8px;
@@ -216,6 +226,7 @@ td{
     color: #782BA1;
     margin: 0;
 }
+
 .title{
     color:#2B0054;  
     font-size: 1em;
@@ -228,6 +239,10 @@ td{
 tr:nth-child(even){background-color: #ffffff}
 tr:nth-child(odd){background-color: #f2f2f2}
 
+.sm-analysis-icon{
+    padding-right: 20px;
+}
+
 /* DESIGN INVESTIGATION */
 
 .circles-background-image{
@@ -235,16 +250,15 @@ tr:nth-child(odd){background-color: #f2f2f2}
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
 
 .design-section-introduction{
-    padding: 30px;
-    padding-top: 110px;
-    padding-bottom: 50px;
+    padding: 140px 20px 80px 20px;
     max-width: 1280px;
+    width: 86%;
+    box-sizing: border-box;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;   
 }
 
 .solutions{
@@ -270,11 +284,39 @@ tr:nth-child(odd){background-color: #f2f2f2}
 }
 
 .card-column{
+    width: 30%;
+    max-width: 380px;
     padding: 10px;
     box-sizing: border-box;
     display: block;
     top: 0px;
     position: relative;
+}
+
+.card-top{
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    text-align: center;  
+    box-sizing: border-box;
+}
+
+.card-bottom{
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 260px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.card-bottom-teal{
+    background: rgba(53, 202, 218, 0.35);  
+}
+
+.card-bottom-blue{
+    background: rgba(0, 114, 255, 0.35);   
 }
 
 .card-icon{
@@ -293,30 +335,6 @@ tr:nth-child(odd){background-color: #f2f2f2}
     background: rgba(0, 114, 255, 0.35);
 }
 
-.card-top{
-    background-color: #f2f2f2;
-    border-radius: 10px 10px 0px 0px;
-    width: 375px;
-    height: 180px;
-    padding: 20px;
-    text-align: center;  
-}
-
-.card-bottom{
-    border-radius: 0px 0px 10px 10px;
-    width: 375px;
-    height: 260px; 
-    padding: 20px; 
-}
-
-.card-bottom-teal{
-    background: rgba(53, 202, 218, 0.35);  
-}
-
-.card-bottom-blue{
-    background: rgba(0, 114, 255, 0.35);   
-}
-
 /* NOTIFICATION PAGE */
 
 .application-icons{
@@ -326,18 +344,21 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 .notification-sounds{
     background: rgba(53, 202, 218, 0.35);
-    width: 100%;
     position: relative;
     display: block;
-    padding: 40px 20px;
+}
+
+.notificaton-content{
+    max-width: 1280px;
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 40px 20px 60px 20px;
     box-sizing: border-box;
 }
 
 .notification-blurb { 
-    width: 50%;
-    box-sizing: border-box;
-    padding-right: 20px;
-    padding-bottom: 40px;
+    width: 55%;
 }
 
 .grid-container {
@@ -359,7 +380,8 @@ tr:nth-child(odd){background-color: #f2f2f2}
     background: rgba(0, 114, 255, 0.35);
 }
 
-.fab{
+
+.notification-icon{
     color: #2B0054;
 }
 
@@ -370,6 +392,7 @@ button {
     position: relative;
     outline: none;
     border: none; 
+    cursor: pointer;
 }
 
 .application-badge-old {
@@ -432,8 +455,12 @@ button {
 /* FEATURES PAGES */
 
 .section-introduction{
-    padding: 30px;
-    padding-top: 110px;  
+    padding: 140px 20px 80px 20px;
+    max-width: 1280px;
+    width: 86%;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;    
 }
 
 .feature-one{
@@ -503,9 +530,8 @@ button {
     overflow: auto;
     background-color: white;
     position: relative;
-    margin-bottom: 20px;
-    margin-right: 10px;
     display: inline-block;
+    /* max-height: 80vh; */
 }
 
 .phone::-webkit-scrollbar { /* Removes the scroll bar */
@@ -550,32 +576,33 @@ button {
 
 .interactive-arrow{
     margin-top: 40px;
+    position: relative;
 }
 
 .arrow-right{
     position: absolute;
-    bottom: 230px;
-    left: 240px;
+    bottom: -10px;
+    left: 130px;
 }
 
 .arrow-right-single-feature{
     position: absolute;
-    bottom: 345px;
-    left: 200px;
+    bottom: -10px;
+    left: 130px;
 }
 
 .arrow-down-tablet{
     display: none;
     position: absolute;
-    bottom: 755px;
-    left: 230px;
+    bottom: -20px;
+    left: 130px;
 }
 
 .arrow-down-single-feature-tablet{
     display: none;
     position: absolute;
-    bottom: 755px;
-    left: 200px;
+    bottom: -20px;
+    left: 130px;
 }
 
 .arrow-down-phone{
@@ -592,17 +619,21 @@ button {
 /* RESOURCES */
 
 .resources-section-introduction{
-    padding: 30px;
-    padding-top: 110px;
+    padding: 140px 20px 80px 20px;
     max-width: 1280px;
+    width: 86%;
+    box-sizing: border-box;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;   
 }
 
 .resources-content{
     max-width: 1280px;
+    width: 86%;
     margin-right: auto;
     margin-left: auto; 
+    padding: 40px 20px 60px 20px;
+    box-sizing: border-box;
 }
 
 /* MEDIA QUERIES */
@@ -652,15 +683,8 @@ button {
         flex: wrap;
     }
     .card-column{
-        width: 50%;
-        padding: 5px;
-    }
-    .card-top{
-        height:240px;
-        box-sizing: border-box; 
-    }
-    .card-bottom{
-        box-sizing: border-box;    
+        width: 100%;
+        padding: 20px 10px;
     }
     .nav-bar{
         display: flex;
@@ -747,15 +771,11 @@ button {
     }
     .flex-grid{
         flex-direction: column;
+        align-items: center;
     }
-    .card-top{
-        height:240px;
-        width: 100% !important;
-        box-sizing: border-box; 
-    }
-    .card-bottom{
-        width: 100% !important;
-        box-sizing: border-box;    
+    .card-column{
+        width: 100%;
+        padding: 20px 10px;
     }
     .nav-bar{
         display: flex;
@@ -767,13 +787,13 @@ button {
     }
     .arrow-down-phone{
         display: block;
-        bottom: 1465px;
-        left: 230px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-down-single-feature-phone{
         display: block;
-        bottom: 755px;
-        left: 200px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-right{
         display: none;
@@ -844,15 +864,11 @@ button {
     }
     .flex-grid{
         flex-direction: column;
+        align-items: center;
     }
-    .card-top{
-        height:240px;
-        width: 100% !important;
-        box-sizing: border-box; 
-    }
-    .card-bottom{
-        width: 100% !important;
-        box-sizing: border-box;    
+    .card-column{
+        width: 100%;
+        padding: 20px 10px;
     }
     .nav-bar{
         display: flex;
@@ -864,13 +880,13 @@ button {
     }
     .arrow-down-phone{
         display: block;
-        bottom: 1465px;
-        left: 230px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-down-single-feature-phone{
         display: block;
-        bottom: 755px;
-        left: 200px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-right{
         display: none;
@@ -941,15 +957,11 @@ button {
     }
     .flex-grid{
         flex-direction: column;
+        align-items: center;
     }
-    .card-top{
-        height:240px;
-        width: 100% !important;
-        box-sizing: border-box; 
-    }
-    .card-bottom{
-        width: 100% !important;
-        box-sizing: border-box;    
+    .card-column{
+        width: 100%;
+        padding: 20px 10px;
     }
     .nav-bar{
         display: flex;
@@ -961,13 +973,13 @@ button {
     }
     .arrow-down-phone{
         display: block;
-        bottom: 1465px;
-        left: 230px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-down-single-feature-phone{
         display: block;
-        bottom: 755px;
-        left: 200px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-right{
         display: none;
@@ -1038,15 +1050,11 @@ button {
     }
     .flex-grid{
         flex-direction: column;
+        align-items: center;
     }
-    .card-top{
-        height:240px;
-        width: 100% !important;
-        box-sizing: border-box; 
-    }
-    .card-bottom{
-        width: 100% !important;
-        box-sizing: border-box;    
+    .card-column{
+        width: 100%;
+        padding: 20px 10px;
     }
     .nav-bar{
         display: flex;
@@ -1058,13 +1066,13 @@ button {
     }
     .arrow-down-phone{
         display: block;
-        bottom: 1465px;
-        left: 230px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-down-single-feature-phone{
         display: block;
-        bottom: 755px;
-        left: 200px;
+        bottom: -20px;
+        left: 130px;
     }
     .arrow-right{
         display: none;
