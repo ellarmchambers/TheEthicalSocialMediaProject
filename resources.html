@@ -15,18 +15,31 @@
 
 <body>
     <header class="circles-background-image">
-        <div id="nav-bar" class="nav-bar"><!-- Setting up navigation -->
-            <a href="index.html" id="logo" class="nav-logo">
-                <img src="assets/img/logo.svg" alt="logo">
-            </a>
-            <button class="mobileNavBTN hide" type="button">
-                <i class="fas fa-bars"></i>
-            </button>
-            <nav class="menu">
-                <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
-                <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
-            </nav>
-        </div>
+        <div class="nav-bar">
+            <div class="nav-left">
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+            </div>
+            <div class="nav-right">
+              <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
+              <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
+            </div>
+            <div class="nav-mobile">
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+            </div>
+          </div>
+
+          <div id="mobileNav" class="mobile-menu fadeIn">
+            <div class="nav-bar nav-clear">
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <div class="nav-mobile">
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="mobile-menu-items">
+              <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
+              <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
+            </div>
+          </div>
 
         <div class="resources-section-introduction fadeInUp ethical-header-animation"><!-- Introduction to Resources -->
             <h1>Resources</h1>
