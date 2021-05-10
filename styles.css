@@ -60,6 +60,8 @@ body {
     height: 22px;
     width: auto;
     margin-right: 20px;
+    color: #2B0054;
+    font-size: 2.5em;
 }
 
 .nav-clear {
@@ -105,11 +107,6 @@ body {
 
 a {
     color: #782BA1;;
-}
-
-.fas {
-    color: #2B0054;
-    font-size: 2.5em;
 }
 
 button{
@@ -422,7 +419,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 80px;
+    /* grid-template-rows: 80px; */
     grid-gap: 80px;
 }
 
@@ -437,7 +434,6 @@ tr:nth-child(odd){background-color: #f2f2f2}
 .button-blue{
     background: rgba(0, 114, 255, 0.35);
 }
-
 
 .notification-icon{
     color: #2B0054;
@@ -733,8 +729,11 @@ button {
     .notification-blurb{
         width: 100%;
     }
-    .grid-container{
-        grid-gap: 8px 1px;  /* 8px to left and right, 1px to top and bottom */
+    /* .grid-container{
+        grid-gap: 50px;  
+    } */
+    .application-icons{
+        display: inline;
     }
     h1{
         font-size: 3.5em;
@@ -786,7 +785,7 @@ button {
         width: 100%;
     }
     .grid-container{
-        grid-gap: 8px 1px;  
+        grid-gap: 40px;    
     }
     h1{
         font-size: 2.5em;
@@ -841,7 +840,7 @@ button {
         width: 100%;
     }
     .grid-container{
-        grid-gap: 8px 1px;  
+        grid-gap: 30px;  
     }
     h1{
         font-size: 2.5em;
@@ -901,7 +900,7 @@ button {
         width: 100%;
     }
     .grid-container{
-        grid-gap: 8px 1px;
+        grid-gap: 15px;  
     }
     h1{
         font-size: 2.5em;
