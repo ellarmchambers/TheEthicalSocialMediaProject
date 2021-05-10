@@ -178,6 +178,14 @@ h5{ /* Large font used on home page */
     margin: 0;
 }
 
+h6{ /* Medium headers - green*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.3em;
+    color: #2B0054;
+    margin: 0;   
+}
+
 p{ /* Body font */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
@@ -405,7 +413,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 .notificaton-content{
     max-width: 1280px;
-    width: 88%;
+    width: 86%;
     margin-right: auto;
     margin-left: auto; 
     padding: 40px 20px 60px 20px;
@@ -413,7 +421,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 }
 
 .notification-blurb { 
-    width: 55%;
+    width: 52%;
 }
 
 .grid-container {
@@ -517,6 +525,15 @@ button {
     margin-left: auto;    
 }
 
+/* .feature-content{ 
+    max-width: 1280px;
+    width: 86%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 40px 20px 60px 20px;
+    box-sizing: border-box;
+} */
+
 .feature-one{
     background: rgba(53, 202, 218, 0.35);
     width: 100%;
@@ -585,7 +602,7 @@ button {
     background-color: white;
     position: relative;
     display: inline-block;
-    /* max-height: 80vh; */
+    max-height: 85vh;
 }
 
 .phone::-webkit-scrollbar { /* Removes the scroll bar */
@@ -950,7 +967,3 @@ button {
         margin-left: 20px;
     }
 }
-
-
-
-
