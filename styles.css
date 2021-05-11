@@ -130,7 +130,7 @@ footer{
 
 .footer-bar{
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     margin: auto;
     padding: 20px 0;
 }
@@ -181,9 +181,10 @@ h5{ /* Large font used on home page */
 h6{ /* Medium headers - green*/
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: #2B0054;
     margin: 0;   
+    text-align: center;
 }
 
 p{ /* Body font */
@@ -225,7 +226,7 @@ p{ /* Body font */
 .ethical-section-introduction{
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;   
@@ -233,7 +234,7 @@ p{ /* Body font */
 
 .ethical-content{
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     margin-right: auto;
     margin-left: auto; 
     padding: 40px 20px 60px 20px;
@@ -318,7 +319,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 .design-section-introduction{
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;   
@@ -413,7 +414,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 .notificaton-content{
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     margin-right: auto;
     margin-left: auto; 
     padding: 40px 20px 60px 20px;
@@ -421,7 +422,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 }
 
 .notification-blurb { 
-    width: 52%;
+    width: 54%;
 }
 
 .grid-container {
@@ -519,27 +520,24 @@ button {
 .section-introduction{
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;    
 }
 
-/* .feature-content{ 
-    max-width: 1280px;
-    width: 86%;
-    margin-right: auto;
-    margin-left: auto; 
-    padding: 40px 20px 60px 20px;
+.feature-content{ 
+    width: 88%; 
+    padding: 40px 20px 40px 20px;
     box-sizing: border-box;
-} */
+}
 
 .feature-one{
     background: rgba(53, 202, 218, 0.35);
     width: 100%;
     position: relative;
     display: block;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     box-sizing: border-box;
 }
 
@@ -576,11 +574,11 @@ button {
 .row--flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-between; 
 }
 
 .blurb { /* Styles of the feature content */
-    width: 40%;
+    width: 38%; /* ORIGNINALLY WAS 40% */
     box-sizing: border-box;
     padding-right: 20px;
     padding-bottom: 40px;
@@ -595,15 +593,48 @@ button {
 
 .phone{ /* Styles of the phone screen shape */
     height: 680px;
-    width: 330px;
+    width: 330px; /* 330 */
     border: 3px solid black;
     border-radius: 15px;
     overflow: auto;
     background-color: white;
     position: relative;
     display: inline-block;
-    max-height: 85vh;
+    max-height: 86vh;
+    margin-left: 5px;
 }
+
+.screenshots{
+    display: flex;
+    /* width: 55%; */
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+/* WIDTH EXPERIMENTATION SINGLE SCREEN*/
+
+.feature-one-test{
+    background: rgba(53, 202, 218, 0.35);
+    width: 100%;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.screenshots-test{
+    display: flex;
+    /* width: 55%; */
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.feature-content-test{ 
+    width: 88%; 
+    padding: 40px 20px 60px 20px;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------- */
 
 .phone::-webkit-scrollbar { /* Removes the scroll bar */
     display: none;
@@ -617,38 +648,6 @@ button {
 .phone-footer{ /* Fixes the footer navigation to the bottom of the scroll */
     position:sticky;
     bottom:0;
-}
-.screenshots{
-    display: flex;
-    width: 56%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-/* TIKTOK SCROLL */
-
-.tiktok-scroll::-webkit-scrollbar { /* Removes the scroll bar */
-    display: none;
-}
-
-.tiktok-scroll {
-    height: 680px;
-    width: 330px;
-    border: 3px solid black;
-    border-radius: 15px;
-    position: relative;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    display: inline-block;
-    overflow-y: scroll;
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(3rem);
-    scroll-snap-type: y mandatory;   
-}
-
-.tiktok-post {
-    background-color: white;
-    scroll-snap-align: start;
 }
 
 .interactive-arrow{
@@ -692,13 +691,38 @@ button {
     position: absolute;
 }
 
+/* TIKTOK SCROLL */
+
+.tiktok-scroll::-webkit-scrollbar { /* Removes the scroll bar */
+    display: none;
+}
+
+.tiktok-scroll {
+    height: 680px;
+    width: 330px;
+    border: 3px solid black;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(3rem);
+    scroll-snap-type: y mandatory;   
+}
+
+.tiktok-post {
+    background-color: white;
+    scroll-snap-align: start;
+}
 
 /* RESOURCES */
 
 .resources-section-introduction{
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;   
@@ -706,7 +730,7 @@ button {
 
 .resources-content{
     max-width: 1280px;
-    width: 86%;
+    width: 88%;
     margin-right: auto;
     margin-left: auto; 
     padding: 40px 20px 60px 20px;
@@ -734,6 +758,37 @@ button {
     }
 }
 
+@media (min-width: 771px) and (max-width: 1230px){
+    .row--flex{
+        flex-direction: column;
+    }
+    .blurb{
+        width: 100%;
+    }
+    .screenshots{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .arrow-down-tablet{
+        display: block;
+    }
+    .arrow-down-single-feature-tablet{
+        display: block;
+    }
+    .arrow-right{
+        display: none;
+    }  
+    .arrow-right-single-feature{
+        display: none;
+    } 
+    h5{
+        font-size: 7em;
+    }
+    .logo-home{
+        margin-left: 50px;
+    }
+}
+
 @media (min-width: 770px) {
     .nav-mobile {
         display: none;
@@ -748,6 +803,10 @@ button {
 @media (min-width: 501px) and (max-width: 770px){ /* iPad */
     .row--flex{
         flex-direction: column;
+    }
+    .screenshots{
+        flex-wrap: nowrap;
+        width: 100%;
     }
     .notification-blurb{
         width: 100%;
@@ -775,9 +834,9 @@ button {
         width: 100%;
         padding: 20px 10px;
     }
-    .timeline{
+    /* .timeline{
         width: 700px;
-    }
+    } */
     .arrow-down-tablet{
         display: block;
     }
