@@ -1,4 +1,4 @@
-//ANIMATION - LIKES, COMMENTS & FOLLOWER COUNT PAGE
+//ANIMATION - LIKES, COMMENTS & FOLLOWERS
 
 // Features - onscroll animation
 

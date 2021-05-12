@@ -1,3 +1,5 @@
+/* ANIMATIONS CSS */
+
 @keyframes fadeInUp {
     0% {
       opacity: 0;
@@ -14,14 +16,14 @@
     animation-fill-mode: both;
   }
 
-  @keyframes fadeIn {
+@keyframes fadeIn {
     0% {
       opacity: 0;
     }
     100% {
       opacity: 1;
     }
-  }
+}
   .fadeIn {
     animation-name: fadeIn;
     animation-duration: 0.5s;
@@ -32,18 +34,18 @@
   visibility: hidden;
 }
 
-/* Landing Page */
+/* LANDING PAGE ANIMATION*/
 
 .logo-animation { animation-delay: 0.5s; }
 .nav-item-one-animation { animation-delay: 1s; }
 .nav-item-two-animation { animation-delay: 1.5s; }
 
-/* Ethical Investigation */
+/* ETHICAL INVESTIGATION ANIMATION */
 
 .ethical-header-animation { animation-delay: 0.5s; }
 .ethical-section-animation { animation-delay: 1s; }
 
-/* Design Investigation */
+/* DESIGN INVESTIGATION ANIMATION */
 
 .design-header-animation { animation-delay: 0.5s; }
 .solutions-animation { animation-delay: 1s; }
@@ -59,15 +61,14 @@
   transition: all 0.3s ease-out;
 }
 
-/* Features Page Animation */
+/* FEATURES PAGES ANIMATION */
 
 .features-header-animation { animation-delay: 0.5s; }
 .feature-animation { animation-delay: 1s; }
-
 .blurb-animation { animation-delay: 1s; }
 .notification-icon-animation { animation-delay: 1.5s; }
 
-/* Resources Page Animation */ 
+/* RESOURCES PAGE ANIMATION */ 
 
 .resources-header-animation { animation-delay: 0.5s; }
 .references-animation { animation-delay: 1s; }

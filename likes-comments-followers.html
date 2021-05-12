@@ -4,38 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
+    <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
     <title>Likes, Comments & Followers</title><!-- Page title -->
 </head>
 
-<body> 
-    <header class="circles-background-image">
-        <div class="nav-bar">
+<body>
+    <header class="circles-background-image"><!-- Background image -->
+        <div class="nav-bar"><!-- Setting up nav bar  -->
             <div class="nav-left">
-              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Nav bar logo -->
             </div>
-            <div class="nav-right">
+            <div class="nav-right"><!-- Navigation items for regular nav bar -->
               <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
             </div>
             <div class="nav-mobile">
-              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
             </div>
           </div>
-
-          <div id="mobileNav" class="mobile-menu fadeIn">
+          <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
             <div class="nav-bar nav-clear">
-                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
                 <div class="nav-mobile">
-                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
                 </div>
             </div>
-            <div class="mobile-menu-items">
+            <div class="mobile-menu-items"> <!-- Navigation items for mobile menu -->
               <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
             </div>
@@ -56,7 +55,7 @@
     <div class="likes-comments-follower-count">
         <div class="likes-comments feature-one">
             <div class="container">
-                <div class="row row--flex fadeInUp feature-animation feature-content">
+                <div class="row row--flex fadeInUp feature-animation feature-content"><!-- Calling animation -->
                     <div class="blurb"><!-- Feature content -->
                         <h2>Likes & Comments</h2>
                         <p>The public nature of ‘likes’ and ‘comments’ can often lead to people comparing themselves to
@@ -67,13 +66,13 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Current Feature</h6>
+                            <h6>Current Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the first phone screen -->
                                 <img src="assets/img/likes-comments-follower-count/instagram-post.svg" alt="application image">
                             </div>
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
+                            <h6>Suggested Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the second phone screen -->
                                 <img src="assets/img/likes-comments-follower-count/instagram-no-likes.svg" alt="application image">
                             </div>
@@ -85,7 +84,7 @@
 
         <div class="follower-count feature-two">
             <div class="container">
-                <div class="row row--flex hide-row feature-content" id="feature-two-row">
+                <div class="row row--flex hide-row feature-content" id="feature-two-row"><!-- Calling animation -->
                     <div class="blurb"><!-- Feature content -->
                         <h2>Follower Count</h2>
                         <p>On Instagram, the quantity of followers is public, this can result in users comparing the
@@ -96,13 +95,13 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Current Feature</h6>
+                            <h6>Current Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the first phone screen -->
                                 <img src="assets/img/likes-comments-follower-count/instagram-profile-old.svg" alt="application image">
                             </div>
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
+                            <h6>Suggested Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the second phone screen -->
                                 <img src="assets/img/likes-comments-follower-count/instagram-profile-new.svg" alt="application image">
                             </div>
@@ -114,7 +113,7 @@
 
         <div class="symbolism-of-likes feature-three">
             <div class="container">
-                <div class="row row--flex hide-row feature-content" id="feature-three-row">
+                <div class="row row--flex hide-row feature-content" id="feature-three-row"><!-- Calling animation -->
                     <div class="blurb-large"><!-- Feature content -->
                         <h2>Symbolism of Likes</h2>
                         <p>On Instagram ‘likes’ are symbolised through the use of a heart, the powerful and strong
@@ -126,8 +125,8 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Suggested Feature</h6>
-                            <div class="phone">
+                            <h6>Suggested Feature</h6> <!-- Phone label -->
+                            <div class="phone"><!-- Setup of the phone screen -->
                                 <img src="assets/img/likes-comments-follower-count/instagram-reactions.svg" alt="application image">
                             </div>
                         </div>

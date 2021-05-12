@@ -4,46 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
-    <title>Notifications</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
+    <title>Notifications</title><!-- Page title -->
 </head>
 
 <body>
-    <header class="circles-background-image">
-        <div class="nav-bar">
+    <header class="circles-background-image"><!-- Background image -->
+        <div class="nav-bar"><!-- Setting up nav bar  -->
             <div class="nav-left">
-              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Nav bar logo -->
             </div>
-            <div class="nav-right">
+            <div class="nav-right"><!-- Navigation items for regular nav bar -->
               <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
             </div>
             <div class="nav-mobile">
-              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
             </div>
           </div>
-
-          <div id="mobileNav" class="mobile-menu fadeIn">
+          <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
             <div class="nav-bar nav-clear">
-                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
                 <div class="nav-mobile">
-                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
                 </div>
             </div>
-            <div class="mobile-menu-items">
+            <div class="mobile-menu-items"> <!-- Navigation items for mobile menu -->
               <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
             </div>
           </div>
           
-        <div class="section-introduction">
-            <div class="row fadeInUp features-header-animation">
-                <h1>Notifications</h1>
+        <div class="section-introduction"><!-- Section introduction -->
+            <div class="row fadeInUp features-header-animation"><!-- Calling animation -->
+                <h1>Notifications</h1><!-- Header -->
                 <p>Notifications are an important aspect of our phones and social media, they allow us to stay connected
                     with others, but they are also one of the most distracting features of our phones. A study from 2015
                     that looked at how phone notifications can affect our attention concluded that “mobile phones can
@@ -56,8 +55,8 @@
         <div class="notification-sounds">
             <div class="container">
                 <div class="row row--flex notificaton-content">
-                    <div class="notification-blurb fadeInUp blurb-animation">
-                        <h2>Notification Sounds</h2>
+                    <div class="notification-blurb fadeInUp blurb-animation"><!-- Calling animation -->
+                        <h2>Notification Sounds</h2><!-- Feature content -->
                         <p>There are a variety of notification sounds and some applications come with their own, and
                             others use the devices built in sounds. High pitched tones are proven to be more invasive
                             and distracting and the notification sounds that these applications produce should be
@@ -69,53 +68,53 @@
                     </div>
 
                     <div class="application-icons">
-                        <div class="grid-container fadeInUp notification-icon-animation">
+                        <div class="grid-container fadeInUp notification-icon-animation"><!-- Calling animation -->
                             <div class="grid-item">
-                                <div class="application-button">
-                                    <button class="button-green" id="facebook-sound" onclick="notifyMeOld('facebook-sound')">
-                                        <i class="notification-icon fab fa-facebook-f fa-4x"></i>
-                                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio> <!-- Calling on the audio -->
-                                        <div id="application-badge-old" class="application-badge-old"></div>
+                                <div class="application-button"><!-- Facebook Button -->
+                                    <button class="button-green" id="facebook-sound" onclick="notifyMeOld('facebook-sound')"><!-- Calling onclick funtion -->
+                                        <i class="notification-icon fab fa-facebook-f fa-4x"></i><!-- Button icon -->
+                                        <audio id="audio" src="assets/audio/facebook-sound.mp3"></audio><!-- Audio file -->
+                                        <div id="application-badge-old" class="application-badge-old"></div><!-- Notificaton badge -->
                                     </button>
                                 </div>
                             </div>
                             <div class="grid-item">
-                                <div class="application-button">
-                                    <button class="button-purple" id="messenger-sound" onclick="notifyMeOld('messenger-sound')">
-                                        <i class="notification-icon fab fa-facebook-messenger fa-4x"></i>
-                                        <audio id="audio" src="assets/audio/messenger-sound.mp3"></audio>
-                                        <div id="application-badge-old" class="application-badge-old"></div>
+                                <div class="application-button"><!-- Messenger Button -->
+                                    <button class="button-purple" id="messenger-sound" onclick="notifyMeOld('messenger-sound')"><!-- Calling onclick funtion -->
+                                        <i class="notification-icon fab fa-facebook-messenger fa-4x"></i><!-- Button icon -->
+                                        <audio id="audio" src="assets/audio/messenger-sound.mp3"></audio><!-- Audio file -->
+                                        <div id="application-badge-old" class="application-badge-old"></div><!-- Notificaton badge -->
                                     </button>
                                 </div>
                             </div>
                             <div class="grid-item">
-                                <div class="application-button">
-                                    <button class="button-blue" id="snapchat-sound" onclick="notifyMeOld('snapchat-sound')">
-                                        <i class="notification-icon fab fa-snapchat-ghost fa-4x"></i>
-                                        <audio id="audio" src="assets/audio/snapchat-sound.mp3"></audio>
-                                        <div id="application-badge-old" class="application-badge-old"></div>
+                                <div class="application-button"><!-- Snapchat Button -->
+                                    <button class="button-blue" id="snapchat-sound" onclick="notifyMeOld('snapchat-sound')"><!-- Calling onclick funtion -->
+                                        <i class="notification-icon fab fa-snapchat-ghost fa-4x"></i><!-- Button icon -->
+                                        <audio id="audio" src="assets/audio/snapchat-sound.mp3"></audio><!-- Audio file -->
+                                        <div id="application-badge-old" class="application-badge-old"></div><!-- Notificaton badge -->
                                     </button>
                                 </div>
                             </div>
                             <div class="grid-item">
-                                <button class="button-green" id="calm-sound-one" onclick="notifyMeNew('calm-sound-one')">
-                                    <i class="notification-icon fas fa-bell fa-4x"></i>
-                                    <audio id="audio" src="assets/audio/calm-tone-1.mp3"></audio>
-                                    <div id="application-badge-green" class="application-badge-new"></div>
+                                <button class="button-green" id="calm-sound-one" onclick="notifyMeNew('calm-sound-one')"><!-- Calling onclick funtion -->
+                                    <i class="notification-icon fas fa-bell fa-4x"></i><!-- Button icon -->
+                                    <audio id="audio" src="assets/audio/calm-tone-1.mp3"></audio><!-- Audio file -->
+                                    <div id="application-badge-green" class="application-badge-new"></div><!-- Notificaton badge -->
                                 </button>
                             </div>
                             <div class="grid-item">
-                                <button class="button-purple" id="calm-sound-two" onclick="notifyMeNew('calm-sound-two')">
-                                    <i class="notification-icon fas fa-bell fa-4x"></i>
-                                    <audio id="audio" src="assets/audio/calm-tone-2.mp3"></audio>
-                                    <div id="application-badge-purple" class="application-badge-new"></div>
+                                <button class="button-purple" id="calm-sound-two" onclick="notifyMeNew('calm-sound-two')"><!-- Calling onclick funtion -->
+                                    <i class="notification-icon fas fa-bell fa-4x"></i><!-- Button icon -->
+                                    <audio id="audio" src="assets/audio/calm-tone-2.mp3"></audio><!-- Audio file -->
+                                    <div id="application-badge-purple" class="application-badge-new"></div><!-- Notificaton badge -->
                                 </button>
                             </div>
                             <div class="grid-item">
-                                <button class="button-blue" id="calm-sound-three" onclick="notifyMeNew('calm-sound-three')">
-                                    <i class="notification-icon fas fa-bell fa-4x"></i>
-                                    <audio id="audio" src="assets/audio/calm-tone-3.mp3"></audio>
-                                    <div id="application-badge-blue" class="application-badge-new"></div>
+                                <button class="button-blue" id="calm-sound-three" onclick="notifyMeNew('calm-sound-three')"><!-- Calling onclick funtion -->
+                                    <i class="notification-icon fas fa-bell fa-4x"></i><!-- Button icon -->
+                                    <audio id="audio" src="assets/audio/calm-tone-3.mp3"></audio><!-- Audio file -->
+                                    <div id="application-badge-blue" class="application-badge-new"></div><!-- Notificaton badge -->
                                 </button>
                             </div>
                         </div>

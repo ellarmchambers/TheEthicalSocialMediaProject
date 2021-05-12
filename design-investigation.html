@@ -4,38 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
-    <title>Design Investigation</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
+    <title>Design Investigation</title><!-- Page title -->
 </head>
 
 <body>
-    <header class="circles-background-image">
-        <div class="nav-bar">
+    <header class="circles-background-image"><!-- Background image -->
+        <div class="nav-bar"><!-- Setting up nav bar  -->
             <div class="nav-left">
-              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Nav bar logo -->
             </div>
-            <div class="nav-right">
+            <div class="nav-right"><!-- Navigation items for regular nav bar -->
               <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
             </div>
             <div class="nav-mobile">
-              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
             </div>
           </div>
-
-          <div id="mobileNav" class="mobile-menu fadeIn">
+          <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
             <div class="nav-bar nav-clear">
-                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
                 <div class="nav-mobile">
-                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
                 </div>
             </div>
-            <div class="mobile-menu-items">
+            <div class="mobile-menu-items"> <!-- Navigation items for mobile menu -->
               <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
             </div>
@@ -51,81 +50,75 @@
     </header>
     <div class="design-investigation">
         <div class="solutions"><!-- Solutions header -->
-            <div class="fadeInUp solutions-animation">
+            <div class="fadeInUp solutions-animation"><!-- Calling the animation -->
                 <h3>The Solutions</h3>
             </div>
         </div>
         <div class="features"><!-- Feature cards -->
             <div class="card-container">
-                <div class="flex-grid">
-                    <div class="card-column fadeInUp card-top-row-animation">
-                        <a href="notifications.html" style="text-decoration: none;">
+                <div class="flex-grid"><!-- Setting up grid -->
+                    <div class="card-column fadeInUp card-top-row-animation"><!-- Calling animations -->
+                        <a href="notifications.html" style="text-decoration: none;"><!-- Link to page -->
                             <div class="card-top">
-                                <img src="assets/img/design-investigation/bell.svg" class="card-icon card-icon-blue"
-                                    alt="bell icon"> <!-- Adding in icon -->
+                                <img src="assets/img/design-investigation/bell.svg" class="card-icon card-icon-blue" alt="Bell icon"><!-- Card icon -->
                             </div>
                             <div class="card-bottom card-bottom-blue">
-                                <h4>Notifications</h4> <!-- Card content -->
+                                <h4>Notifications</h4><!-- Card content -->
                                 <p>One of the most addictive aspects of social media.</p>
                             </div>
                         </a>
                     </div>
-                    <div class="card-column fadeInUp card-top-row-animation">
-                        <a href="infinite-scroll.html" style="text-decoration: none;">
+                    <div class="card-column fadeInUp card-top-row-animation"><!-- Calling animations -->
+                        <a href="infinite-scroll.html" style="text-decoration: none;"><!-- Link to page -->
                             <div class="card-top">
-                                <img src="assets/img/design-investigation/chevrons-down.svg"
-                                    class="card-icon card-icon-teal" alt="bell icon">
+                                <img src="assets/img/design-investigation/chevrons-down.svg" class="card-icon card-icon-teal" alt="Chevron icon"><!-- Card icon -->
                             </div>
                             <div class="card-bottom card-bottom-teal">
-                                <h4>Infinite Scroll</h4>
+                                <h4>Infinite Scroll</h4><!-- Card content -->
                                 <p>Providing the user with a never ending stream of content.</p>
                             </div>
                         </a>
                     </div>
-                    <div class="card-column fadeInUp card-top-row-animation">
-                        <a href="suggested-posts-adverts.html" style="text-decoration: none;">
+                    <div class="card-column fadeInUp card-top-row-animation"><!-- Calling animations -->
+                        <a href="suggested-posts-adverts.html" style="text-decoration: none;"><!-- Link to page -->
                             <div class="card-top">
-                                <img src="assets/img/design-investigation/help-circle.svg"
-                                    class="card-icon card-icon-blue" alt="bell icon">
+                                <img src="assets/img/design-investigation/help-circle.svg" class="card-icon card-icon-blue" alt="Question mark icon"><!-- Card icon -->
                             </div>
                             <div class="card-bottom card-bottom-blue">
-                                <h4>Suggested Posts & Adverts</h4>
+                                <h4>Suggested Posts & Adverts</h4><!-- Card content -->
                                 <p>A very prominent feature on our social media feeds.</p>
                             </div>
                         </a>
                     </div>
-                    <div class="card-column fadeInUp card-bottom-row-animation">
-                        <a href="negative-content.html" style="text-decoration: none;">
+                    <div class="card-column fadeInUp card-bottom-row-animation"><!-- Calling animations -->
+                        <a href="negative-content.html" style="text-decoration: none;"><!-- Link to page -->
                             <div class="card-top">
-                                <img src="assets/img/design-investigation/alert-circle.svg"
-                                    class="card-icon card-icon-teal" alt="bell icon">
+                                <img src="assets/img/design-investigation/alert-circle.svg" class="card-icon card-icon-teal" alt="Alert icon"><!-- Card icon -->
                             </div>
                             <div class="card-bottom card-bottom-teal">
-                                <h4>Negative Content</h4>
+                                <h4>Negative Content</h4><!-- Card content -->
                                 <p>Turning social media feeds into an unsafe space.</p>
                             </div>
                         </a>
                     </div>
-                    <div class="card-column fadeInUp card-bottom-row-animation">
-                        <a href="edited-images.html" style="text-decoration: none;">
+                    <div class="card-column fadeInUp card-bottom-row-animation"><!-- Calling animations -->
+                        <a href="edited-images.html" style="text-decoration: none;"><!-- Link to page -->
                             <div class="card-top">
-                                <img src="assets/img/design-investigation/edit.svg" class="card-icon card-icon-blue"
-                                    alt="bell icon">
+                                <img src="assets/img/design-investigation/edit.svg" class="card-icon card-icon-blue" alt="Edit icon"><!-- Card icon -->
                             </div>
                             <div class="card-bottom card-bottom-blue">
-                                <h4>Edited Images</h4>
+                                <h4>Edited Images</h4><!-- Card content -->
                                 <p>Encouraging users to share the ‘best’ version of themselves.</p>
                             </div>
                         </a>
                     </div>
-                    <div class="card-column fadeInUp card-bottom-row-animation">
-                        <a href="likes-comments-followers.html" style="text-decoration: none;">
+                    <div class="card-column fadeInUp card-bottom-row-animation"><!-- Calling animations -->
+                        <a href="likes-comments-followers.html" style="text-decoration: none;"><!-- Link to page -->
                             <div class="card-top">
-                                <img src="assets/img/design-investigation/heart.svg" class="card-icon card-icon-teal"
-                                    alt="bell icon">
+                                <img src="assets/img/design-investigation/heart.svg" class="card-icon card-icon-teal" alt="Heart icon"><!-- Card icon -->
                             </div>
                             <div class="card-bottom card-bottom-teal">
-                                <h4>Likes, Comments and Followers</h4>
+                                <h4>Likes, Comments and Followers</h4><!-- Card content -->
                                 <p>One of the most addictive aspects of social media.</p>
                             </div>
                         </a>

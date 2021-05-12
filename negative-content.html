@@ -4,45 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
-    <title>Negative Content</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
+    <title>Negative Content</title><!-- Page title -->
 </head>
 
 <body>
-    <header class="circles-background-image">
-        <div class="nav-bar">
+    <header class="circles-background-image"><!-- Background image -->
+        <div class="nav-bar"><!-- Setting up nav bar  -->
             <div class="nav-left">
-              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Nav bar logo -->
             </div>
-            <div class="nav-right">
+            <div class="nav-right"><!-- Navigation items for regular nav bar -->
               <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
             </div>
             <div class="nav-mobile">
-              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
             </div>
           </div>
-
-          <div id="mobileNav" class="mobile-menu fadeIn">
+          <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
             <div class="nav-bar nav-clear">
-                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
                 <div class="nav-mobile">
-                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
                 </div>
             </div>
-            <div class="mobile-menu-items">
+            <div class="mobile-menu-items"> <!-- Navigation items for mobile menu -->
               <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
             </div>
           </div>
           
         <div class="section-introduction"> <!-- Section introduction -->
-            <div class="row fadeInUp features-header-animation">
+            <div class="row fadeInUp features-header-animation"><!-- Calling animation -->
                 <h1>Negative Content</h1> <!-- Header -->
                 <p>People often turn to social media when they want to be entertained or feel connected with others and
                     in times of low mood it is even more crucial that these platforms can provide the user with a form
@@ -54,7 +53,7 @@
     <div class="negative-content">
         <div class="post-warnings feature-one">
             <div class="container">
-                <div class="row row--flex fadeInUp feature-animation feature-content">
+                <div class="row row--flex fadeInUp feature-animation feature-content"><!-- Calling animation -->
                     <div class="blurb-large"><!-- Feature content -->
                         <h2>Post Warnings</h2>
                         <p>To combat the issue of triggering content or ‘fake news’ Facebook could implement a feature
@@ -66,7 +65,7 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Suggested Feature</h6>
+                            <h6>Suggested Feature</h6><!-- Phone label -->
                             <div class="phone">
                                 <img src="assets/img/negative-content/facebook-logo.svg" alt="application image"><br>
                                 <img src="assets/img/negative-content/facebook-header.svg" alt="application image" class="phone-header"><br>
@@ -84,7 +83,7 @@
 
         <div class="content-settings feature-two">
             <div class="container">
-                <div class="row row--flex hide-row feature-content" id="feature-two-row">
+                <div class="row row--flex hide-row feature-content" id="feature-two-row"><!-- Calling animation -->
                     <div class="blurb"><!-- Feature content -->
                         <h2>Content Settings</h2>
                         <p>To ensure that a user does not come across content that could be harmful to their mental
@@ -95,14 +94,14 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Suggested Feature</h6>
-                            <div class="phone">
+                            <h6>Suggested Feature</h6><!-- Phone label -->
+                            <div class="phone"><!-- Setup of the phone screen -->
                                 <img src="assets/img/negative-content/instagram-content-settings.svg"alt="application image">
                             </div>
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
-                            <div class="phone">
+                            <h6>Suggested Feature</h6><!-- Phone label -->
+                            <div class="phone"><!-- Setup of the phone screen -->
                                 <img src="assets/img/negative-content/facebook-content-settings.svg" alt="application image">
                             </div>
                         </div>
@@ -113,7 +112,7 @@
 
         <div class="low-mood feature-three">
             <div class="container">
-                <div class="row row--flex hide-row feature-content" id="feature-three-row">
+                <div class="row row--flex hide-row feature-content" id="feature-three-row"><!-- Calling animation -->
                     <div class="blurb"><!-- Feature content -->
                         <h2>Low Mood</h2>
                         <p>When in a low state a user may not want to see certain content on their Instagram feed as it
@@ -124,14 +123,14 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Suggested Feature</h6>
-                            <div class="phone">
+                            <h6>Suggested Feature</h6> <!-- Phone label -->
+                            <div class="phone"><!-- Setup of the phone screen -->
                                 <img src="assets/img/negative-content/instagram-low-mood-settings.svg"alt="application image">
                             </div>
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
-                            <div class="phone">
+                            <h6>Suggested Feature</h6> <!-- Phone label -->
+                            <div class="phone"><!-- Setup of the phone screen -->
                                 <img src="assets/img/negative-content/instagram-low-mood.svg" alt="application image">
                             </div>
                         </div>

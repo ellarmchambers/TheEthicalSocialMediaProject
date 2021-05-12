@@ -2,40 +2,39 @@
 <html class="home-html" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
-    <title>The Ethical Social Media Project</title> <!-- Page title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+  <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+  <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+  <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
+  <title>The Ethical Social Media Project</title><!-- Page title -->
 </head>
 
-<body class="home-body">
-
-    <div class="nav-bar">
+<body class="home-body"><!-- Background image -->
+    <div class="nav-bar"><!-- Setting up nav bar  -->
         <div class="nav-left">
-          <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg" style="visibility: hidden;"></a>
+          <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg" style="visibility: hidden;"></a><!-- Nav bar logo -->
         </div>
-        <div class="nav-right">
+        <div class="nav-right"><!-- Navigation items for regular nav bar -->
           <a href="design-investigation.html"  class="nav-item nav-design fadeInUp nav-item-two-animation" style="text-decoration: none;">Design Investigation</a>
           <a href="ethical-investigation.html" class="nav-item nav-ethical fadeInUp nav-item-one-animation" style="text-decoration: none;">Ethical Investigation</a>
         </div>
         <div class="nav-mobile">
-          <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+          <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
         </div>
       </div>
 
-      <div id="mobileNav" class="mobile-menu fadeIn">
+      <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
         <div class="nav-bar nav-clear">
-            <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+            <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
             <div class="nav-mobile">
-              <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+              <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
             </div>
         </div>
-        <div class="mobile-menu-items">
+        <div class="mobile-menu-items"><!-- Navigation items for mobile menu -->
           <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
           <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
         </div>

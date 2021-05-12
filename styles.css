@@ -18,7 +18,7 @@ body {
 
 /* NAV BAR*/
 
-.nav-bar {
+.nav-bar { /* Conditions for regular nav bar */
     overflow: hidden;
     transition: 0.4s;
     position: fixed;
@@ -34,14 +34,14 @@ body {
     transform: translateZ(0);
 }
 
-.nav-logo {
+.nav-logo { /* Conditions for nav bar logo*/
     float: left;
     width: 90px;
     padding: 10px 10px;
     transition: 0.4s;
 }
 
-.nav-item{
+.nav-item{ /* Conditions for nav items */
     float: right;
     display: block;
     color: #2B0054;
@@ -52,11 +52,11 @@ body {
     transition: 0.4s;
 }
 
-.nav-item:hover {
+.nav-item:hover { /* Setting hover colour*/
     color: #782BA1;
 }
 
-.nav-icon {
+.nav-icon { /* Conditions for mobile menu icons */
     height: 22px;
     width: auto;
     margin-right: 20px;
@@ -73,7 +73,7 @@ body {
     display: none;
 }
 
-.mobile-menu {
+.mobile-menu { /* Conditions for mobile menu */
     display: none;
     opacity: 0;
     position: fixed;
@@ -85,7 +85,7 @@ body {
     box-sizing: border-box;
     background-color: #b8edf2  ;
 }
-.mobile-menu-items {
+.mobile-menu-items { /* Conditions for mobile menu items */
     color: #2B0054;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -97,9 +97,11 @@ body {
     width: 100%;
     margin-top: 50px;
 }
-.mobile-menu-items > a:first-child {
+
+.mobile-menu-items > a:first-child { /* Line that seperates mobile menu items*/
     border-bottom: 2px solid #2B0054;;
 }
+
 .nav-item-mobile {
     padding: 35px;
     width: 80%;
@@ -107,7 +109,7 @@ body {
     text-align: center;
 }
 
-a {
+a { /* Colour of mobile menu items */
     color: #782BA1;;
 }
 
@@ -122,7 +124,7 @@ footer{
     background-color: #2B0054;
 }
 
-.footer-item{
+.footer-item{ /* Conditions for footer item */
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -180,7 +182,7 @@ h5{ /* Large font used on home page */
     margin: 0;
 }
 
-h6{ /* Medium headers - green*/
+h6{ /* Phone labels */
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 1.3em;
@@ -198,12 +200,12 @@ p{ /* Body font */
 
 /* HOME PAGE */
 
-.logo-home{
+.logo-home{ /* Conditions for the logo */
     margin-left: 50px;
     margin-top: 130px;
 }
 
-.logo-the{
+.logo-the{ /* Setting colour for each word */
     color: #782BA1;
 }
 
@@ -225,7 +227,7 @@ p{ /* Body font */
 
 /* ETHICAL INVESTIGATION PAGE */
 
-.ethical-section-introduction{
+.ethical-section-introduction{ /* Conditions for page header*/
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
     width: 88%;
@@ -234,7 +236,7 @@ p{ /* Body font */
     margin-left: auto;   
 }
 
-.ethical-content{
+.ethical-content{ /* Conditions for page content */
     max-width: 1280px;
     width: 88%;
     margin-right: auto;
@@ -243,7 +245,7 @@ p{ /* Body font */
     box-sizing: border-box;
 }
  
-.background-teal{
+.background-teal{ /* Setting background colour for each section */
     background: rgba(53, 202, 218, 0.35);
 }
 
@@ -255,14 +257,14 @@ p{ /* Body font */
     background: rgba(0, 114, 255, 0.25);
 }
 
-.timeline{
+.timeline{ /* Conditions for timeline images*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.table {
+.table { /* Conditions for the table */
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -311,14 +313,14 @@ tr:nth-child(odd){background-color: #f2f2f2}
 
 /* DESIGN INVESTIGATION */
 
-.circles-background-image{
+.circles-background-image{ /* Background image */
     background-image: url(assets/img/background-circles.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.design-section-introduction{
+.design-section-introduction{ /* Conditions for page header*/
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
     width: 88%;
@@ -327,7 +329,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     margin-left: auto;   
 }
 
-.solutions{
+.solutions{ /* Conditions for subheader*/
     background: rgba(53, 202, 218, 0.35);
     padding: 20px;
     text-align: center;
@@ -338,18 +340,18 @@ tr:nth-child(odd){background-color: #f2f2f2}
     margin-bottom: 30px;
 }
 
-.card-container{
+.card-container{ /* Container for the cards */
     max-width: 1400px;
     margin:auto;
 }
 
-.flex-grid{
+.flex-grid{ /* Setting up grid */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.card-column{
+.card-column{ /* Conditions for the cards */
     width: 30%;
     max-width: 380px;
     padding: 10px;
@@ -359,7 +361,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     position: relative;
 }
 
-.card-top{
+.card-top{ /* Conditions for card tops */
     background-color: #f2f2f2;
     border-radius: 10px 10px 0px 0px;
     width: 100%;
@@ -369,7 +371,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     box-sizing: border-box;
 }
 
-.card-bottom{
+.card-bottom{ /* Conditions for card bottoms */
     border-radius: 0px 0px 10px 10px;
     width: 100%;
     height: 260px; 
@@ -377,7 +379,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     box-sizing: border-box;
 }
 
-.card-bottom-teal{
+.card-bottom-teal{ /* Alternate colours for card bottom */
     background: rgba(53, 202, 218, 0.35);  
 }
 
@@ -385,7 +387,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     background: rgba(0, 114, 255, 0.35);   
 }
 
-.card-icon{
+.card-icon{ /* Conditions for card icons */
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -393,7 +395,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     margin: 10px;
 }
 
-.card-icon-teal{
+.card-icon-teal{ /* Alternate colours for icon background */
     background: rgba(53, 202, 218, 0.35);
 }
 
@@ -414,7 +416,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
     display: block;
 }
 
-.notificaton-content{
+.notificaton-content{ /* Conditions for page content */
     max-width: 1280px;
     width: 88%;
     margin-right: auto;
@@ -427,13 +429,13 @@ tr:nth-child(odd){background-color: #f2f2f2}
     width: 54%;
 }
 
-.grid-container {
+.grid-container { /* Setting up grid */
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 80px;
 }
 
-.button-green{
+.button-green{ /* Alternate colours for the buttons*/
     background: rgba(0, 132, 141, 0.35);
 }
 
@@ -445,11 +447,11 @@ tr:nth-child(odd){background-color: #f2f2f2}
     background: rgba(0, 114, 255, 0.35);
 }
 
-.notification-icon{
+.notification-icon{ /* Colour of icons */
     color: #2B0054;
 }
 
-button { 
+button { /* Conditions for buttons */
     border-radius: 25px;
     width: 94px;
     height: 91px;
@@ -459,7 +461,7 @@ button {
     cursor: pointer;
 }
 
-.application-badge-old {
+.application-badge-old { /* Conditions for old notification badge */
     display: none;
     position: absolute;
     top: -13px;
@@ -477,7 +479,7 @@ button {
     text-align: center;
 }
 
-#application-badge-green {
+#application-badge-green { /* Conditions for new notification badge*/
     display: none;
     position: absolute;
     top: -5px;
@@ -518,7 +520,7 @@ button {
 
 /* FEATURES PAGES */
 
-.section-introduction{
+.section-introduction{ /* Conditions for page header*/
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
     width: 88%;
@@ -527,13 +529,13 @@ button {
     margin-left: auto;    
 }
 
-.feature-content{ 
+.feature-content{ /* Conditions for page content */
     width: 88%; 
     padding: 40px 20px 40px 20px;
     box-sizing: border-box;
 }
 
-.feature-one{
+.feature-one{ /* Conditions for each section */
     background: rgba(53, 202, 218, 0.35);
     width: 100%;
     position: relative;
@@ -575,7 +577,7 @@ button {
     justify-content: space-between; 
 }
 
-.blurb { /* Styles of the feature content */
+.blurb { /* Conditions for the feature content */
     width: 38%;
     box-sizing: border-box;
     padding-right: 20px;
@@ -589,7 +591,7 @@ button {
     padding-bottom: 40px;
 }
 
-.phone{ /* Styles of the phone screen shape */
+.phone{ /* Conditions for the phone screen shape */
     height: 680px;
     width: 330px; 
     border: 3px solid black;
@@ -604,7 +606,6 @@ button {
 
 .phone-images{
     display: flex;
-    /* width: 55%; */
     justify-content: space-between; 
     flex-wrap: wrap;
 }
@@ -625,25 +626,25 @@ button {
 
 /* INTERACTIVE ARROWS */
 
-.interactive-arrow{
+.interactive-arrow{ /* Conditions for all arrows */
     margin-top: 40px;
     position: relative;
 }
 
-.arrow-md-laptop{
+.arrow-md-laptop{ /* Arrows for laptops */
     position: absolute;
     bottom: -15px;
     left: 130px;
 }
 
-.arrow-md-laptop-single-feature{
+.arrow-md-laptop-single-feature{ /* Single feature arrows for laptops */
     position: absolute;
     bottom: -10px;
     left: 130px;
     width: 600px;
 }
 
-.arrow-sm-laptop{
+.arrow-sm-laptop{ /* Arrows for smaller resolution laptops */
     display: none;
     position: absolute;
     bottom: -15px;
@@ -651,7 +652,7 @@ button {
     width: 300px;
 }
 
-.arrow-tablet{
+.arrow-tablet{ /* Arrows for tablets */
     display: none;
     position: absolute;
     bottom: -15px;
@@ -659,7 +660,7 @@ button {
     width: 215px;
 }
 
-.arrow-phone{
+.arrow-phone{ /* Arrows for phones */
     display: none;
     position: absolute;
     bottom: -20px;
@@ -673,7 +674,7 @@ button {
     display: none;
 }
 
-.tiktok-scroll {
+.tiktok-scroll { /* Conditions for TikTok Phones */
     height: 680px;
     width: 330px;
     border: 3px solid black;
@@ -682,6 +683,7 @@ button {
     margin-bottom: 20px;
     margin-right: 10px;
     display: inline-block;
+    max-height: 85vh;
     overflow-y: scroll;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(3rem);
@@ -695,7 +697,7 @@ button {
 
 /* RESOURCES */
 
-.resources-section-introduction{
+.resources-section-introduction{ /* Conditions for page header*/
     padding: 140px 20px 80px 20px;
     max-width: 1280px;
     width: 88%;
@@ -704,7 +706,7 @@ button {
     margin-left: auto;   
 }
 
-.resources-content{
+.resources-content{ /* Conditions for page content*/
     max-width: 1280px;
     width: 88%;
     margin-right: auto;
@@ -734,13 +736,19 @@ button {
     }
 }
 
-/* MEDIA QUERIES - SMALLER LAPTOP */
+/* MEDIA QUERIES - LOWER RESOLUTION SCREENS */
 
 @media (min-width: 771px) and (max-width: 1330px){
     .row--flex{
         flex-direction: column;
     }
     .blurb{
+        width: 100%;
+    }
+    .blurb-large{
+        width: 100%;
+    }
+    .notification-blurb{
         width: 100%;
     }
     .phone-images{
@@ -766,7 +774,7 @@ button {
 
 /* MEDIA QUERY - NAV BAR */
 
-@media (min-width: 770px) { /* Hiding mobile navigation & showing regular*/
+@media (min-width: 770px) { /* Hiding mobile navigation & showing regular */
     .nav-mobile {
         display: none;
     }
@@ -778,21 +786,21 @@ button {
 /* MEDIA QUERIES - TABLET */
 
 @media (min-width: 501px) and (max-width: 770px){ /* iPad */
-    .row--flex{
-        flex-direction: column;
+    .row--flex{ 
+        flex-direction: column; /* Changes flex direction for samller screens*/
     }
-    .phone-images{
+    .phone-images{ /* Conditions for phones on smaller screens */
         flex-wrap: nowrap;
         width: 100%;
         justify-content: space-evenly;
     }
-    .notification-blurb{
+    .notification-blurb{ /* Setting blurbs to 100% */
         width: 100%;
     }
     .application-icons{
         display: inline;
     }
-    h1{
+    h1{ /* Changes typography sizes for smaller screens */
         font-size: 3.5em;
     }
     h2{
@@ -801,15 +809,18 @@ button {
     h3{
         font-size: 3em;
     }
+    h5{
+        font-size: 6em;
+    }
     .flex-grid{
         flex-direction: row;
         flex: wrap;
     }
-    .card-column{
+    .card-column{ /* Changing card width to fill screen*/
         width: 100%;
         padding: 20px 10px;
     }
-    .arrow-md-laptop{
+    .arrow-md-laptop{ /* Changing which arrows can be seen on smaller screens*/
         display: none;
     }  
     .arrow-md-laptop-single-feature{
@@ -818,10 +829,7 @@ button {
     .arrow-tablet{
         display: block;
     }
-    h5{
-        font-size: 6em;
-    }
-    .logo-home{
+    .logo-home{ /* Changing logo position on smaller screens*/
         margin-left: 20px;
     }
 }
@@ -835,13 +843,13 @@ button {
     .phone-images{
         justify-content: space-evenly;
     }
-    .phone-outer{
+    .phone-outer{ /* Adding padding underneath phones*/
         padding-bottom: 25px;
     }
-    .phone{
+    .phone{ /* Removing margin-left */
         margin-left: 0px;
     }
-    .feature-content{
+    .feature-content{ /* Changing content widths */
         width: 95%
     }
     .section-introduction{
@@ -862,7 +870,7 @@ button {
     .notification-blurb{
         width: 100%;
     }
-    .grid-container{
+    .grid-container{ /* Changing layout of notification icons */
         grid-gap: 40px;    
     }
     h1{
@@ -874,6 +882,9 @@ button {
     h3{
         font-size: 2em;
     }
+    h5{
+        font-size: 6em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -882,7 +893,7 @@ button {
         width: 100%;
         padding: 20px 10px;
     }
-    .timeline{
+    .timeline{ /* Removing timeline images */
         display: none;
     }
     .arrow-md-laptop{
@@ -894,16 +905,13 @@ button {
     .arrow-phone{
         display: block;
     }
-    h5{
-        font-size: 6em;
-    }
     .logo-home{
         margin-left: 20px;
         margin-top: 180px;
     }
 }
 
-@media (max-width: 475px) { /* Pixel 3a */
+@media (max-width: 475px) { /* Medium Phone - Pixel 3a */
     .row--flex {
         flex-direction: column;
     }
@@ -949,6 +957,9 @@ button {
     h3{
         font-size: 2em;
     }
+    h5{
+        font-size: 6em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -974,16 +985,13 @@ button {
     .arrow-phone{
         display: block;
     }
-    h5{
-        font-size: 6em;
-    }
     .logo-home{
         margin-left: 20px;
         margin-top: 180px;
     }
 }
 
-@media (max-width: 380px) { /* iPhone 6/7/8 */
+@media (max-width: 380px) { /* Small Phone - iPhone 6/7/8 */
     .row--flex {
         flex-direction: column;
     }
@@ -1002,6 +1010,9 @@ button {
     h3{
         font-size: 2em;
     }
+    h5{
+        font-size: 6em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -1026,9 +1037,6 @@ button {
     }
     .arrow-phone{
         display: block;
-    }
-    h5{
-        font-size: 6em;
     }
     .logo-home{
         margin-left: 20px;

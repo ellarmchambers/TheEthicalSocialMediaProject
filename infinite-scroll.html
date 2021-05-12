@@ -4,46 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
+    <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
     <title>Infinite Scroll</title><!-- Page title -->
 </head>
 
 <body>
-    <header class="circles-background-image">
-        <div class="nav-bar">
+    <header class="circles-background-image"><!-- Background image -->
+        <div class="nav-bar"><!-- Setting up nav bar  -->
             <div class="nav-left">
-              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Nav bar logo -->
             </div>
-            <div class="nav-right">
+            <div class="nav-right"><!-- Navigation items for regular nav bar -->
               <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
             </div>
             <div class="nav-mobile">
-              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
             </div>
           </div>
-
-          <div id="mobileNav" class="mobile-menu fadeIn">
+          <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
             <div class="nav-bar nav-clear">
-                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
                 <div class="nav-mobile">
-                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
                 </div>
             </div>
-            <div class="mobile-menu-items">
+            <div class="mobile-menu-items"> <!-- Navigation items for mobile menu -->
               <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
             </div>
           </div>
           
         <div class="section-introduction"><!-- Section introduction -->
-            <div class="row fadeInUp features-header-animation">
-                <h1>Infinite Scroll</h1> <!-- Header -->
+            <div class="row fadeInUp features-header-animation"><!-- Calling animation -->
+                <h1>Infinite Scroll</h1><!-- Header -->
                 <p>Infinite scroll is a feature that has been implemented into a variety of social media applications
                     and it allows users to swipe through endless content. It is used by applications such as Facebook,
                     Instagram and TikTok to provide the user with a never-ending stream of content, which can have a
@@ -54,7 +53,7 @@
     <div class="infinite-scroll">
         <div class="infinite-scroll-instagram feature-one"><!-- Instagram Phone Screens -->
             <div class="container">
-                <div class="row row--flex fadeInUp feature-animation feature-content">
+                <div class="row row--flex fadeInUp feature-animation feature-content"><!-- Calling animation -->
                     <div class="blurb"><!-- Feature content -->
                         <h2>Instagram</h2>
                         <p>Instagram recently implemented a new feature that informs the user when they have seen all
@@ -66,7 +65,7 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Current Feature</h6>
+                            <h6>Current Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the first phone screen -->
                                 <img src="assets/img/infinite-scroll/instagram-header.svg" alt="application image" class="phone-header"><br>
                                 <img src="assets/img/infinite-scroll/instagram-stories.svg" alt="application image"><br>
@@ -80,7 +79,7 @@
                             </div> 
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
+                            <h6>Suggested Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the second phone screen -->
                                 <img src="assets/img/infinite-scroll/instagram-header.svg" alt="application image" class="phone-header"><br>
                                 <img src="assets/img/infinite-scroll/instagram-stories.svg" alt="application image"><br>
@@ -108,7 +107,7 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Current Feature</h6>
+                            <h6>Current Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the first phone screen -->
                                 <img src="assets/img/infinite-scroll/facebook-logo.svg" alt="application image"><br>
                                 <img src="assets/img/infinite-scroll/facebook-header.svg" alt="application image" class="phone-header"><br>
@@ -120,7 +119,7 @@
                             </div>
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
+                            <h6>Suggested Feature</h6><!-- Phone label -->
                             <div class="phone"><!-- Setup of the second phone screen -->
                                 <img src="assets/img/infinite-scroll/facebook-logo.svg" alt="application image"><br>
                                 <img src="assets/img/infinite-scroll/facebook-header.svg" alt="application image" class="phone-header"><br>
@@ -148,7 +147,7 @@
                     </div>
                     <div class="phone-images" >
                         <div class="phone-outer" >  
-                            <h6>Current Feature</h6>
+                            <h6>Current Feature</h6><!-- Phone label -->
                             <section class="tiktok-scroll tiktok-infinite">
                                 <img src="assets/img/infinite-scroll/tiktok-header.svg" alt="application image" class="phone-header"><br>
                                 <div class="tiktok-post"><img src="assets/img/infinite-scroll/tiktok-post.svg" alt="application image"></div>
@@ -161,7 +160,7 @@
                             </section>
                         </div>
                         <div class="phone-outer">
-                            <h6>Suggested Feature</h6>
+                            <h6>Suggested Feature</h6><!-- Phone label -->
                             <section class="tiktok-scroll">
                                 <img src="assets/img/infinite-scroll/tiktok-header.svg" alt="application image" class="phone-header"><br>
                                 <div class="tiktok-post"><img src="assets/img/infinite-scroll/tiktok-post.svg" alt="application image"></div>

@@ -4,38 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <link rel="stylesheet" href="animations.css"> <!-- Link to Animations -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
-    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script> <!-- Link to Font Awesome -->
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/> <!-- Favicon -->
-    <title>Ethical Investigation</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"><!-- Link to CSS -->
+    <link rel="stylesheet" href="animations.css"><!-- Link to Animations -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap" rel="stylesheet"><!-- Link to Google Fonts -->
+    <script src="https://kit.fontawesome.com/07049fd744.js" crossorigin="anonymous"></script><!-- Link to Font Awesome -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.svg"/><!-- Favicon -->
+    <title>Ethical Investigation</title><!-- Page title -->
 </head>
 
 <body>
-    <header class="circles-background-image">
-        <div class="nav-bar">
+    <header class="circles-background-image"><!-- Background image -->
+        <div class="nav-bar"><!-- Setting up nav bar  -->
             <div class="nav-left">
-              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+              <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Nav bar logo -->
             </div>
-            <div class="nav-right">
+            <div class="nav-right"><!-- Navigation items for regular nav bar -->
               <a href="design-investigation.html"  class="nav-item nav-design" style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item nav-ethical" style="text-decoration: none;">Ethical Investigation</a>
             </div>
             <div class="nav-mobile">
-              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button>
+              <button onclick="openMobileNav()" class="nav-icon" type="button"><i class="fas fa-bars"></i></button><!-- Calling Function that opens mobile navigation -->
             </div>
           </div>
-
-          <div id="mobileNav" class="mobile-menu fadeIn">
+          <div id="mobileNav" class="mobile-menu fadeIn"><!-- Setting up mobile navigation  -->
             <div class="nav-bar nav-clear">
-                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a>
+                <a href="index.html"><img class="nav-logo" src="assets/img/logo.svg"></a><!-- Mobile menu logo -->
                 <div class="nav-mobile">
-                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button>
+                  <button onclick="closeMobileNav()" class="nav-icon" type="button"><i class="fas fa-times"></i></button><!-- Calling Function that closes mobile navigation -->
                 </div>
             </div>
-            <div class="mobile-menu-items">
+            <div class="mobile-menu-items"> <!-- Navigation items for mobile menu -->
               <a href="design-investigation.html"  class="nav-item-mobile nav-design " style="text-decoration: none;">Design Investigation</a>
               <a href="ethical-investigation.html" class="nav-item-mobile nav-ethical " style="text-decoration: none;">Ethical Investigation</a>
             </div>
@@ -54,14 +53,12 @@
     </header>
 
     <div class="ethical-investigation">
-
         <div class="section background-teal">
-            <div class="features-of-sm ethical-content fadeInUp ethical-section-animation">
-                <h1>The Features of Social Media</h1>
+            <div class="features-of-sm ethical-content fadeInUp ethical-section-animation"><!-- Calling animations -->
+                <h1>The Features of Social Media</h1><!-- Section content -->
                 <p>The table below shows some of the features that are shared between 10 of the most popular social media applications. All of these platforms were created with different functions in mind but with regular updates and features being added frequently these applications are becoming more alike, creating a very similar user experience and one that can often have a negative impact on the user’s mental health.</p>
-
                     <div class="features-table " style="overflow-x:auto;">
-                        <table class="table">
+                        <table class="table"> <!-- Setting up features table -->
                             <thead>
                                 <tr>
                                     <th>Features</th>
@@ -164,20 +161,20 @@
 
         <div class="section background-white">
             <div class="adoption-of-features ethical-content" >
-                <div class="hide-row" id="adoption-features1-animation">
-                    <h2>The Adoption of Popular Features</h2>
+                <div class="hide-row" id="adoption-features1-animation"><!-- Calling animations -->
+                    <h2>The Adoption of Popular Features</h2><!-- Section content -->
                     <p>Some of these very popular features used to be particular to one application but over time have been adopted by various other platforms.</p>
                     <p>‘Stories’ were created by Snapchat in 2013 (O'Connell, 2020) and have since been implemented by 5 other applications, they all work in a very similar way and allow users to share snippets and highlights of their day with their followers, and the content then disappears after a limited amount of time. Features like ‘Stories’ have added another element for users to interact with and the time limit aspect has had a negative effect by causing greater addiction due to users not wanting to miss out on content posted by those they follow.</p>
                 </div>
-                <img class="timeline hide-row" id="adoption-features-timeline1-animation" src="assets/img/ethical-investigation/stories-timeline.png"> 
+                <img class="timeline hide-row" id="adoption-features-timeline1-animation" alt="Timeline visual" src="assets/img/ethical-investigation/stories-timeline.png"><!-- Timeline Image - Stories -->
                 <p class="hide-row" id="adoption-features2-animation">Much like how ‘Stories’ was adopted amongst various applications, short-form videos have also risen in popularity, being implemented by a variety of platforms. 2020 saw the rise of TikTok with it topping “two billion downloads” (Liao and Shu, 2020), the hugely popular application allows users to watch and create short-form videos in a variety of genres. In late 2020, 3 other applications implemented a feature that allows their users to watch short-form videos, they may all be named differently but they all function in a very similar way and leave the user with a very similar experience. </p>
-                <img class="timeline hide-row" id="adoption-features-timeline2-animation" src="assets/img/ethical-investigation/short-form-timeline.png"> 
+                <img class="timeline hide-row" id="adoption-features-timeline2-animation" alt="Timeline visual" src="assets/img/ethical-investigation/short-form-timeline.png"><!-- Timeline Image - Short-form video -->
             </div>
         </div>
 
         <div class="section background-blue">
-            <div class="dark-patterns ethical-content hide-row" id="dark-patterns-animation">
-                <h1>Dark Patterns</h1>
+            <div class="dark-patterns ethical-content hide-row" id="dark-patterns-animation"><!-- Calling animations -->
+                <h1>Dark Patterns</h1><!-- Section content -->
                 <p>Dark patterns are tricks that are often used on websites and applications, their purpose is to get the user to do something that they may not want to do, but that will benefit the application they are using. Dark patterns can have a detrimental effect on a user’s wellbeing and are commonly used in social media applications.</p>
                 <p>Features such as infinite scroll, ‘likes’ and adverts are all dark patterns that are frequently used in a majority of applications. Infinite scroll provides users with a never-ending stream of content keeping them glued to their phones. ‘Likes’ provide us with feel good chemicals such as dopamine, and adverts are often camouflaged or mixed amongst our main feeds hoping that we may accidentally click on them.</p>
                 <p>When you get email notifications from applications telling you about activity you need to view, but not actually telling you what it is, for example when LinkedIn email you to say, you have a message but do not tell you what the message is and instead give you a button that takes you to the website, that is a dark pattern.</p>
@@ -187,36 +184,36 @@
         </div>
 
         <div class="section background-white">
-            <div class="sm-analysis ethical-content hide-row" id="social-media-analysis-animation">
-                <h1>The Social Media Analysis</h1>
+            <div class="sm-analysis ethical-content hide-row" id="social-media-analysis-animation"><!-- Calling animations -->
+                <h1>The Social Media Analysis</h1><!-- Section content -->
                 <p>Social media applications were created to allow their users to share moments from their lives, but with the rise of filters, editing and creators showing only the ‘highlights’ and ‘good times’ it is creating a user base that is addicted to these applications due to the FOMO, and the constant checking is causing anxiety, depression and body image issues. Instagram, Snapchat and Facebook are 3 of the most popular social media applications, but they are also believed to be some of the worst when it comes to mental health.</p>
             </div>
         </div>
 
         <div class="section background-teal">
-            <div class="instagram-analysis ethical-content hide-row" id="instagram-animation">
-                <h2><i class="sm-analysis-icon fab fa-instagram fa-1x"></i>Instagram</h2>
+            <div class="instagram-analysis ethical-content hide-row" id="instagram-animation"><!-- Calling animations -->
+                <h2><i class="sm-analysis-icon fab fa-instagram fa-1x"></i>Instagram</h2><!-- Section content -->
                 <p>Instagram was created to provide its users with a platform where they could share photos and interact with other users through ‘liking’ and ‘commenting’. Since its launch it has become extremely popular amassing over 24 million UK users in 2020 (Revive.Digital, 2020). However, despite its popularity it is also considered to be the “worst for young people’s mental health” (Instagram Ranked Worst for Young People’s Mental Health, 2017). It has been associated with high levels of anxiety, sleep issues, body image and FOMO (#StatusOfMind, 2017). Instagram’s primary feature encourages users to present “highly curated versions” of themselves which is “driving feelings of inadequacy and anxiety in young people” (Instagram Ranked Worst for Young People’s Mental Health, 2017).</p>
             </div>
         </div>
 
         <div class="section background-white">
-            <div class="snapchat-analysis ethical-content hide-row" id="snapchat-animation">
-                <h2><i class="sm-analysis-icon fab fa-snapchat-ghost fa-1x"></i>Snapchat</h2>
+            <div class="snapchat-analysis ethical-content hide-row" id="snapchat-animation"><!-- Calling animations -->
+                <h2><i class="sm-analysis-icon fab fa-snapchat-ghost fa-1x"></i>Snapchat</h2><!-- Section content -->
                 <p>Snapchat is ranked as the second worst social media platform on the Royal Society for Public Health league table and has been linked with high levels of FOMO, bullying, body image and sleep issues (#StatusOfMind, 2017). The photo sharing application comes with a variety of filters and editing tools that allow people to share the best and often false versions of themselves, which is having a detrimental effect on its users with “around 70% of 18–24-year-olds considering having a cosmetic surgical procedure”. Due to this, more than “two thirds of young people support social media highlighting when a photo has been manipulated” to try and prevent young users from comparing themselves to unrealistic expectations.</p>
             </div>
         </div>
 
         <div class="section background-blue">
-            <div class="facebook-analysis ethical-content hide-row" id="facebook-animation">
-               <h2><i class="sm-analysis-icon fab fa-facebook fa-1x"></i>Facebook</h2>
+            <div class="facebook-analysis ethical-content hide-row" id="facebook-animation"><!-- Calling animations -->
+               <h2><i class="sm-analysis-icon fab fa-facebook fa-1x"></i>Facebook</h2><!-- Section content -->
                 <p>Facebook is by far the most popular platform accumulating over 44 million UK users in 2020 (Revive.Digital, 2020). But it faces a similar fate to Instagram as it is also considered to have a negative effect on its user’s mental health. In the Royal Society for Public Health league table Facebook ranks in 3rd place, with its average weighted score also being in the negatives, it has been associated with high levels of anxiety, depression, sleep issues and bullying (#StatusOfMind, 2017). ‘Facebook depression’ is a term that has been created to describe the pressure that the online world can have as young adults “face pressures from unrealistic representations of reality, and deal with online peer pressure”.</p>
             </div>
         </div>
 
         <div class="section background-white">
-            <div class="product-of-sm ethical-content hide-row" id="product-social-media-animation">
-                <h1>The Product of Social Media</h1>
+            <div class="product-of-sm ethical-content hide-row" id="product-social-media-animation"><!-- Calling animations -->
+                <h1>The Product of Social Media</h1><!-- Section content -->
                 <p>“If you are not paying for the product, then you are the product” is a popular saying that was coined in the late 90s and is now commonly used in relation to social media.</p>
                 <p>It is often questioned what the product is of social media applications, in ‘The Social Dilemma’ Jaron Lanier states that “it's the gradual, slight, imperceptible change in your own behaviour and perception that is the product” and that the only thing there is to make money from is “changing what you do, how you think, who you are”. (Netflix, 2020)</p>
                 <p>Social media applications keep track of what their users ‘like’, comment on and what they engage with, this is then used to recommend tailored content specific to the user and keep them on the application for as long as possible.</p>
@@ -227,8 +224,8 @@
         </div>
 
         <div class="section background-teal">
-            <div class="utopia-dystopia ethical-content hide-row" id="utopia-dystopia-animation">
-                <h1>Utopia, Dystopia</h1>
+            <div class="utopia-dystopia ethical-content hide-row" id="utopia-dystopia-animation"><!-- Calling animations -->
+                <h1>Utopia, Dystopia</h1><!-- Section content -->
                 <p>Social media is often referenced as a simultaneous utopia and dystopia. Through the use of social media applications millions of people have the ability to be connected with those who live on the other side of the world, it allows us to stay in touch with those we haven’t seen for years and acts as a form of entertainment.</p>
                 <p>It may not be all doom and gloom but it certainly isn’t perfection, there are various issues from unethical features, to dark patterns but with some redesign and re-invention these applications could be the fun and happy escape that they need to be.</p>
             </div>
