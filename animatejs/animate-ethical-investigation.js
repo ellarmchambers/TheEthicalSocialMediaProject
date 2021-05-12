@@ -21,27 +21,29 @@ function animateOnScroll(element){
 
 window.onscroll = function() {
 
-  if (document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 800) { 
+  console.log(document.documentElement.scrollTop);
+
+  if (document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 900) { 
     animateOnScroll(adoptionFeatures1Animation);
-  } else if (document.documentElement.scrollTop > 800 && document.documentElement.scrollTop < 1300){
+  } else if (document.documentElement.scrollTop > 900 && document.documentElement.scrollTop < 1400){
     animateOnScroll(adoptionFeaturesTimeline1Animation);
-  } else if (document.documentElement.scrollTop > 1300 && document.documentElement.scrollTop < 1500){
+  } else if (document.documentElement.scrollTop > 1400 && document.documentElement.scrollTop < 1700){
     animateOnScroll(adoptionFeatures2Animation);
-  } else if (document.documentElement.scrollTop > 1500 && document.documentElement.scrollTop < 1900){
+  } else if (document.documentElement.scrollTop > 1700 && document.documentElement.scrollTop < 2100){
     animateOnScroll(adoptionFeaturesTimeline2Animation);
-  } else if (document.documentElement.scrollTop > 1900 && document.documentElement.scrollTop < 3000){
+  } else if (document.documentElement.scrollTop > 2100 && document.documentElement.scrollTop < 3200){
     animateOnScroll(darkPatternsAnimation);
-  } else if (document.documentElement.scrollTop > 3000 && document.documentElement.scrollTop < 3300 ){
+  } else if (document.documentElement.scrollTop > 3200 && document.documentElement.scrollTop < 3600 ){
     animateOnScroll(socialMediaAnalysisAnimation);
-  } else if (document.documentElement.scrollTop > 3300 && document.documentElement.scrollTop < 3600){
+  } else if (document.documentElement.scrollTop > 3600 && document.documentElement.scrollTop < 4200){
     animateOnScroll(instagramAnimation);
-  } else if (document.documentElement.scrollTop > 3600 && document.documentElement.scrollTop < 3900){
+  } else if (document.documentElement.scrollTop > 4200 && document.documentElement.scrollTop < 4600){
     animateOnScroll(snapchatAnimation);
-  } else if (document.documentElement.scrollTop > 3900 && document.documentElement.scrollTop < 4300){
+  } else if (document.documentElement.scrollTop > 4600 && document.documentElement.scrollTop < 5100){
     animateOnScroll(facebookAnimation);
-  } else if (document.documentElement.scrollTop > 4300 && document.documentElement.scrollTop < 5100){
+  } else if (document.documentElement.scrollTop > 5100 && document.documentElement.scrollTop < 5900){
     animateOnScroll(productSocialMediaAnimation);
-  } else if (document.documentElement.scrollTop > 5100 ){
+  } else if (document.documentElement.scrollTop > 5800 ){
     animateOnScroll(utopiaDystopiaAnimation);
   }
   
