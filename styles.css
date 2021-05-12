@@ -97,11 +97,13 @@ body {
     width: 100%;
     margin-top: 50px;
 }
+.mobile-menu-items > a:first-child {
+    border-bottom: 2px solid #2B0054;;
+}
 .nav-item-mobile {
-    padding: 25px;
+    padding: 35px;
     width: 80%;
     box-sizing: border-box;
-    margin: 12px 0;
     text-align: center;
 }
 
@@ -181,9 +183,10 @@ h5{ /* Large font used on home page */
 h6{ /* Medium headers - green*/
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #2B0054;
-    margin: 0;   
+    margin: 0;
+    padding-bottom: 8px;
     text-align: center;
 }
 
@@ -191,7 +194,6 @@ p{ /* Body font */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: #2B0054;
-    /* margin: 5;  */
 }
 
 /* HOME PAGE */
@@ -428,7 +430,6 @@ tr:nth-child(odd){background-color: #f2f2f2}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-template-rows: 80px; */
     grid-gap: 80px;
 }
 
@@ -537,7 +538,6 @@ button {
     width: 100%;
     position: relative;
     display: block;
-    /* padding: 40px 20px; */
     box-sizing: border-box;
 }
 
@@ -546,7 +546,6 @@ button {
     width: 100%;
     position: relative;
     display: block;
-    padding: 40px 20px;
     box-sizing: border-box;
 }
 
@@ -555,7 +554,6 @@ button {
     width: 100%;
     position: relative;
     display: block;
-    padding: 40px 20px;
     box-sizing: border-box;
 }
 
@@ -578,7 +576,7 @@ button {
 }
 
 .blurb { /* Styles of the feature content */
-    width: 38%; /* ORIGNINALLY WAS 40% */
+    width: 38%;
     box-sizing: border-box;
     padding-right: 20px;
     padding-bottom: 40px;
@@ -593,48 +591,23 @@ button {
 
 .phone{ /* Styles of the phone screen shape */
     height: 680px;
-    width: 330px; /* 330 */
+    width: 330px; 
     border: 3px solid black;
     border-radius: 15px;
     overflow: auto;
     background-color: white;
     position: relative;
     display: inline-block;
-    max-height: 86vh;
-    margin-left: 5px;
+    max-height: 85vh;
+    margin-left: 15px;
 }
 
-.screenshots{
+.phone-images{
     display: flex;
     /* width: 55%; */
     justify-content: space-between; 
     flex-wrap: wrap;
 }
-
-/* WIDTH EXPERIMENTATION SINGLE SCREEN*/
-
-.feature-one-test{
-    background: rgba(53, 202, 218, 0.35);
-    width: 100%;
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-
-.screenshots-test{
-    display: flex;
-    /* width: 55%; */
-    justify-content: space-between; 
-    flex-wrap: wrap;
-}
-
-.feature-content-test{ 
-    width: 88%; 
-    padding: 40px 20px 60px 20px;
-    box-sizing: border-box;
-}
-
-/* ---------------------------------------------------------- */
 
 .phone::-webkit-scrollbar { /* Removes the scroll bar */
     display: none;
@@ -650,45 +623,48 @@ button {
     bottom:0;
 }
 
+/* INTERACTIVE ARROWS */
+
 .interactive-arrow{
     margin-top: 40px;
     position: relative;
 }
 
-.arrow-right{
+.arrow-md-laptop{
     position: absolute;
     bottom: -10px;
     left: 130px;
 }
 
-.arrow-right-single-feature{
+.arrow-md-laptop-single-feature{
     position: absolute;
     bottom: -10px;
     left: 130px;
+    width: 600px;
 }
 
-.arrow-down-tablet{
+.arrow-sm-laptop{
     display: none;
     position: absolute;
     bottom: -20px;
     left: 130px;
+    width: 300px;
 }
 
-.arrow-down-single-feature-tablet{
+.arrow-tablet{
     display: none;
     position: absolute;
     bottom: -20px;
     left: 130px;
+    width: 215px;
 }
 
-.arrow-down-phone{
+.arrow-phone{
     display: none;
     position: absolute;
-}
-
-.arrow-down-single-feature-phone{
-    display: none;
-    position: absolute;
+    bottom: -20px;
+    left: 130px;
+    width: 150px;
 }
 
 /* TIKTOK SCROLL */
@@ -748,9 +724,9 @@ button {
     }
 }
 
-@media (min-width: 1600px) and (max-width: 2000px){ 
+@media (min-width: 1600px) and (max-width: 2000px){ /* Increasing Logo size on landing page on larger screens */
     h5{
-        font-size: 10em; /* Increasing Logo size on landing page on larger screens */
+        font-size: 10em;
     }
     .logo-home{
         margin-left: 50px;
@@ -758,29 +734,28 @@ button {
     }
 }
 
-@media (min-width: 771px) and (max-width: 1230px){
+/* MEDIA QUERIES - SMALLER LAPTOP */
+
+@media (min-width: 771px) and (max-width: 1330px){
     .row--flex{
         flex-direction: column;
     }
     .blurb{
         width: 100%;
     }
-    .screenshots{
+    .phone-images{
         justify-content: space-evenly;
         width: 100%;
     }
-    .arrow-down-tablet{
-        display: block;
-    }
-    .arrow-down-single-feature-tablet{
-        display: block;
-    }
-    .arrow-right{
+    .arrow-md-laptop{
         display: none;
     }  
-    .arrow-right-single-feature{
+    .arrow-md-laptop-single-feature{
         display: none;
     } 
+    .arrow-sm-laptop{
+        display: block;
+    }
     h5{
         font-size: 7em;
     }
@@ -789,7 +764,9 @@ button {
     }
 }
 
-@media (min-width: 770px) {
+/* MEDIA QUERY - NAV BAR */
+
+@media (min-width: 770px) { /* Hiding mobile navigation & showing regular*/
     .nav-mobile {
         display: none;
     }
@@ -804,16 +781,14 @@ button {
     .row--flex{
         flex-direction: column;
     }
-    .screenshots{
+    .phone-images{
         flex-wrap: nowrap;
         width: 100%;
+        justify-content: space-evenly;
     }
     .notification-blurb{
         width: 100%;
     }
-    /* .grid-container{
-        grid-gap: 50px;  
-    } */
     .application-icons{
         display: inline;
     }
@@ -834,21 +809,15 @@ button {
         width: 100%;
         padding: 20px 10px;
     }
-    /* .timeline{
-        width: 700px;
-    } */
-    .arrow-down-tablet{
-        display: block;
-    }
-    .arrow-down-single-feature-tablet{
-        display: block;
-    }
-    .arrow-right{
+    .arrow-md-laptop{
         display: none;
     }  
-    .arrow-right-single-feature{
+    .arrow-md-laptop-single-feature{
         display: none;
     } 
+    .arrow-tablet{
+        display: block;
+    }
     h5{
         font-size: 6em;
     }
@@ -857,11 +826,38 @@ button {
     }
 }
 
-/* MEDIA QUERIES - PHONE */
+/* MEDIA QUERIES - PHONES */
 
 @media (max-width: 500px) { /* Large phone */
     .row--flex {
         flex-direction: column;
+    }
+    .phone-images{
+        justify-content: space-evenly;
+    }
+    .phone-outer{
+        padding-bottom: 25px;
+    }
+    .phone{
+        margin-left: 0px;
+    }
+    .feature-content{
+        width: 95%
+    }
+    .section-introduction{
+        width: 95%
+    }
+    .ethical-section-introduction{
+        width: 95%;
+    }
+    .ethical-content{
+        width: 95%
+    }
+    .design-section-introduction{
+        width: 95%;
+    }
+    .notificaton-content{
+        width: 95%;
     }
     .notification-blurb{
         width: 100%;
@@ -889,21 +885,14 @@ button {
     .timeline{
         display: none;
     }
-    .arrow-down-phone{
-        display: block;
-        bottom: -20px;
-        left: 130px;
-    }
-    .arrow-down-single-feature-phone{
-        display: block;
-        bottom: -20px;
-        left: 130px;
-    }
-    .arrow-right{
+    .arrow-md-laptop{
         display: none;
     }
-    .arrow-right-single-feature{
+    .arrow-md-laptop-single-feature{
         display: none;
+    }
+    .arrow-phone{
+        display: block;
     }
     h5{
         font-size: 6em;
@@ -917,6 +906,33 @@ button {
 @media (max-width: 475px) { /* Pixel 3a */
     .row--flex {
         flex-direction: column;
+    }
+    .phone-images{
+        justify-content: space-evenly;
+    }
+    .phone-outer{
+        padding-bottom: 25px;
+    }
+    .phone{
+        margin-left: 0px;
+    }
+    .feature-content{
+        width: 95%
+    }
+    .section-introduction{
+        width: 95%
+    }
+    .ethical-section-introduction{
+        width: 95%;
+    }
+    .ethical-content{
+        width: 95%
+    }
+    .design-section-introduction{
+        width: 95%;
+    }
+    .notificaton-content{
+        width: 95%;
     }
     .notification-blurb{
         width: 100%;
@@ -949,21 +965,14 @@ button {
     .timeline{
         display: none;
     }
-    .arrow-down-phone{
-        display: block;
-        bottom: -20px;
-        left: 130px;
-    }
-    .arrow-down-single-feature-phone{
-        display: block;
-        bottom: -20px;
-        left: 130px;
-    }
-    .arrow-right{
+    .arrow-md-laptop{
         display: none;
     }
-    .arrow-right-single-feature{
+    .arrow-md-laptop-single-feature{
         display: none;
+    }
+    .arrow-phone{
+        display: block;
     }
     h5{
         font-size: 6em;
@@ -1009,21 +1018,14 @@ button {
     .timeline{
         display: none;
     }
-    .arrow-down-phone{
-        display: block;
-        bottom: -20px;
-        left: 130px;
-    }
-    .arrow-down-single-feature-phone{
-        display: block;
-        bottom: -20px;
-        left: 130px;
-    }
-    .arrow-right{
+    .arrow-md-laptop{
         display: none;
     }
-    .arrow-right-single-feature{
+    .arrow-md-laptop-single-feature{
         display: none;
+    }
+    .arrow-phone{
+        display: block;
     }
     h5{
         font-size: 6em;
