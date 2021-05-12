@@ -632,7 +632,7 @@ button {
 
 .arrow-md-laptop{
     position: absolute;
-    bottom: -10px;
+    bottom: -15px;
     left: 130px;
 }
 
@@ -646,7 +646,7 @@ button {
 .arrow-sm-laptop{
     display: none;
     position: absolute;
-    bottom: -20px;
+    bottom: -15px;
     left: 130px;
     width: 300px;
 }
@@ -654,7 +654,7 @@ button {
 .arrow-tablet{
     display: none;
     position: absolute;
-    bottom: -20px;
+    bottom: -15px;
     left: 130px;
     width: 215px;
 }
