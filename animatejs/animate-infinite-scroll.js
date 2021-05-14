@@ -38,6 +38,7 @@ window.onscroll = function() {
     document.querySelector(".nav-logo").style.width = "90px";
   }
 }
+
 // TikTok Scroll animation
 
 var section = document.getElementsByClassName('tiktok-infinite')[0] //Setting the loop for the TikTok infinite scroll example
