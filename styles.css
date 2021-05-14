@@ -836,7 +836,7 @@ button { /* Conditions for buttons */
 
 /* MEDIA QUERIES - PHONES */
 
-@media (max-width: 500px) { /* Large phone */
+@media (max-width: 500px) { /* Extra Large phone */
     .row--flex {
         flex-direction: column;
     }
@@ -911,7 +911,7 @@ button { /* Conditions for buttons */
     }
 }
 
-@media (max-width: 475px) { /* Medium Phone - Pixel 3a */
+@media (max-width: 475px) { /* Large Phone - Pixel 3a */
     .row--flex {
         flex-direction: column;
     }
@@ -991,9 +991,36 @@ button { /* Conditions for buttons */
     }
 }
 
-@media (max-width: 380px) { /* Small Phone - iPhone 6/7/8 */
+@media (max-width: 380px) { /* Medium Phone - iPhone 6/7/8 */
     .row--flex {
         flex-direction: column;
+    }
+    .phone-images{
+        justify-content: space-evenly;
+    }
+    .phone-outer{
+        padding-bottom: 25px;
+    }
+    .phone{
+        margin-left: 0px;
+    }
+    .feature-content{
+        width: 95%
+    }
+    .section-introduction{
+        width: 95%
+    }
+    .ethical-section-introduction{
+        width: 95%;
+    }
+    .ethical-content{
+        width: 95%
+    }
+    .design-section-introduction{
+        width: 95%;
+    }
+    .notificaton-content{
+        width: 95%;
     }
     .notification-blurb{
         width: 100%;
@@ -1012,6 +1039,94 @@ button { /* Conditions for buttons */
     }
     h5{
         font-size: 6em;
+    }
+    .flex-grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-column{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .timeline{
+        display: none;
+    }
+    .arrow-md-laptop{
+        display: none;
+    }
+    .arrow-md-laptop-single-feature{
+        display: none;
+    }
+    .arrow-phone{
+        display: block;
+    }
+    .logo-home{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 320px) { /* Small Phone - iPhone 5/SE */
+    .row--flex {
+        flex-direction: column;
+    }
+    .phone-images{
+        justify-content: space-evenly;
+    }
+    .phone-outer{
+        padding-bottom: 25px;
+    }
+    .phone{
+        margin-left: 0px;
+        width: 300px;
+    }
+    .tiktok-scroll{
+        width: 300px;
+        margin-right: 0px;
+    }
+    .feature-content{
+        width: 95%
+    }
+    .section-introduction{
+        width: 95%
+    }
+    .ethical-section-introduction{
+        width: 95%;
+    }
+    .ethical-content{
+        width: 95%
+    }
+    .design-section-introduction{
+        width: 95%;
+    }
+    .notificaton-content{
+        width: 95%;
+    }
+    .notification-blurb{
+        width: 100%;
+    }
+    .grid-container{
+        grid-gap: 5px;  
+    }
+    button{
+        width: 86px;
+        height: 83px;
+    }
+    h1{
+        font-size: 2.4em;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.8em;
+    }
+    h5{
+        font-size: 4.5em;
     }
     .flex-grid{
         flex-direction: column;
