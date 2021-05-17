@@ -124,19 +124,25 @@ footer{
     background-color: #2B0054;
 }
 
-.footer-item{ /* Conditions for footer item */
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    color: #ffffff;
-    font-size: 1.5em;
-}
-
 .footer-bar{
     max-width: 1280px;
     width: 88%;
     margin: auto;
     padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.footer-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5em;
 }
 
 /* TYPOGRAPHY */
@@ -668,6 +674,36 @@ button { /* Conditions for buttons */
     width: 150px;
 }
 
+/* PREVIOUS AND NEXT PAGE BUTTONS */
+
+.feature-page-buttons{
+    max-width: 1280px;
+    width: 88%;
+    margin: auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.prev-next-button{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #2B0054;
+    font-size: 2em;
+    box-sizing: border-box;
+}
+
+.icon-next{
+    padding-left: 10px;
+}
+
+.icon-previous{
+    padding-right: 10px;
+}
+
+
 /* TIKTOK SCROLL */
 
 .tiktok-scroll::-webkit-scrollbar { /* Removes the scroll bar */
@@ -915,6 +951,15 @@ button { /* Conditions for buttons */
     .logo-home{
         margin-left: 20px;
         margin-top: 180px;
+    }
+    .feature-page-buttons{
+        justify-content: space-around;
+    }
+    .prev-next-button{
+        line-height: 60px;
+    }
+    .footer-content{
+        justify-content: space-around;
     }
 }
 
