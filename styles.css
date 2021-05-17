@@ -751,6 +751,9 @@ button { /* Conditions for buttons */
     .notification-blurb{
         width: 100%;
     }
+    .application-icons{
+        align-self: center;
+    }
     .phone-images{
         justify-content: space-evenly;
         width: 100%;
@@ -799,6 +802,7 @@ button { /* Conditions for buttons */
     }
     .application-icons{
         display: inline;
+        align-self: center;
     }
     h1{ /* Changes typography sizes for smaller screens */
         font-size: 3.5em;
@@ -869,6 +873,9 @@ button { /* Conditions for buttons */
     }
     .notification-blurb{
         width: 100%;
+    }
+    .application-icons{
+        align-self: center;
     }
     .grid-container{ /* Changing layout of notification icons */
         grid-gap: 40px;    
@@ -944,6 +951,9 @@ button { /* Conditions for buttons */
     }
     .notification-blurb{
         width: 100%;
+    }
+    .application-icons{
+        align-self: center;
     }
     .grid-container{
         grid-gap: 30px;  
@@ -1024,6 +1034,9 @@ button { /* Conditions for buttons */
     }
     .notification-blurb{
         width: 100%;
+    }
+    .application-icons{
+        align-self: center;
     }
     .grid-container{
         grid-gap: 15px;  
@@ -1108,6 +1121,9 @@ button { /* Conditions for buttons */
     }
     .notification-blurb{
         width: 100%;
+    }
+    .application-icons{
+        align-self: center;
     }
     .grid-container{
         grid-gap: 5px;  
