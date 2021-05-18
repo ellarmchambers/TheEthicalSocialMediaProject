@@ -888,6 +888,16 @@ button { /* Conditions for buttons */
     .logo-home{ /* Changing logo position on smaller screens*/
         margin-left: 20px;
     }
+    .feature-page-buttons{
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+    .prev-next-button{
+        font-size: 1.8em;
+    }
+    .footer-item{
+        font-size: 1.5em;
+    }
 }
 
 /* MEDIA QUERIES - PHONES */
