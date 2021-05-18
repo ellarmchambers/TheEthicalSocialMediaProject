@@ -1,6 +1,6 @@
-//ANIMATION - ETHICAL INVESTIGATION PAGE
+//ANIMATION - ETHICAL INVESTIGATION
 
-// Sections - onscroll animation
+// Page sections - onscroll animation
 
 var adoptionFeatures1Animation = document.querySelector('#adoption-features1-animation')
 var adoptionFeaturesTimeline1Animation = document.querySelector('#adoption-features-timeline1-animation')
@@ -20,9 +20,6 @@ function animateOnScroll(element){
 }
 
 window.onscroll = function() {
-
-  console.log(document.documentElement.scrollTop);
-
   if (document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 900) { 
     animateOnScroll(adoptionFeatures1Animation);
   } else if (document.documentElement.scrollTop > 900 && document.documentElement.scrollTop < 1400){
@@ -47,7 +44,6 @@ window.onscroll = function() {
     animateOnScroll(utopiaDystopiaAnimation);
   }
   
-
 //Nav Bar - onscroll animation
 
   scrollFunction()}; //Setting up the scroll funtion for re-sizing of nav bar

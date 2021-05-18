@@ -1,4 +1,4 @@
-//ANIMATION - EDITED IMAGES PAGE
+//ANIMATION - EDITED IMAGES
 
 // Features - onscroll animation
 
@@ -10,8 +10,7 @@ function animateOnScroll(element){
   element.classList.add('fadeInUp');
 }
 
-window.onscroll = function() {
-  
+window.onscroll = function() { 
   if (document.documentElement.scrollTop > 600 && document.documentElement.scrollTop < 1400) { 
     animateOnScroll(featureTwoRow);
   } else if (document.documentElement.scrollTop > 1400){

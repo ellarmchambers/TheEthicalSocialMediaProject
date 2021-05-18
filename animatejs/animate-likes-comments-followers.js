@@ -11,7 +11,6 @@ function animateOnScroll(element){
 }
 
 window.onscroll = function() {
-  
   if (document.documentElement.scrollTop > 600 && document.documentElement.scrollTop < 1400) { 
     animateOnScroll(featureTwoRow);
   } else if (document.documentElement.scrollTop > 1400){

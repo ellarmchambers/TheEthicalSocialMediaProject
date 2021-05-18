@@ -1,4 +1,4 @@
-//ANIMATION - RESOURCES PAGE
+//ANIMATION - RESOURCES
 
 //Nav Bar - onscroll animation
 

@@ -1,4 +1,4 @@
-//ANIMATION - NOTIFICATIONS PAGE
+//ANIMATION - NOTIFICATIONS
 
 //Nav Bar - onscroll animation
 

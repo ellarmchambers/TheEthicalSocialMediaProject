@@ -85,6 +85,7 @@ body {
     box-sizing: border-box;
     background-color: #b8edf2  ;
 }
+
 .mobile-menu-items { /* Conditions for mobile menu items */
     color: #2B0054;
     font-family: 'Poppins', sans-serif;
@@ -685,7 +686,6 @@ button { /* Conditions for buttons */
     max-width: 1280px;
     width: 88%;
     margin: auto;
-    /* padding: 20px 0; */
     padding-bottom: 20px;
     box-sizing: border-box;
     display: flex;

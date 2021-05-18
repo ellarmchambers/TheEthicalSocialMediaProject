@@ -1,4 +1,4 @@
-//Nav Bar Mobile
+//MOBILE NAV BAR
 
   function openMobileNav() { //Setting up function that shows and hides mobile menu
     document.getElementById('mobileNav').style.display="block";
