@@ -681,7 +681,7 @@ button { /* Conditions for buttons */
 
 /* PREVIOUS AND NEXT PAGE BUTTONS */
 
-.feature-page-buttons{
+.feature-page-buttons{ /* Conditions for the next & previous buttons*/
     max-width: 1280px;
     width: 88%;
     margin: auto;
@@ -714,7 +714,7 @@ button { /* Conditions for buttons */
     padding-right: 10px;
 }
 
-.button-short{
+.button-short{ /* Shorter previous & next button for mobile */
     display: none;
 }
 
@@ -893,10 +893,10 @@ button { /* Conditions for buttons */
     .feature-page-buttons{
         padding-bottom: 35px;
     }
-    .prev-next-button{
+    .prev-next-button{ /* Changing font size on smaller screens*/
         font-size: 1.8em;
     }
-    .footer-item{
+    .footer-item{ /* Changing font size on smaller screens*/
         font-size: 1.5em;
     }
 }
@@ -944,7 +944,7 @@ button { /* Conditions for buttons */
     .grid-container{ /* Changing layout of notification icons */
         grid-gap: 40px;    
     }
-    h1{
+    h1{ /* Changing font size on smaller screens*/
         font-size: 2.5em;
     }
     h2{
@@ -986,19 +986,19 @@ button { /* Conditions for buttons */
     .feature-page-buttons{
         padding-bottom: 35px;
     }
-    .prev-next-button{
+    .prev-next-button{ /* Changing font size on smaller screens*/
         font-size: 1.6em;
     }
     .button-long{
         display: none;
     }
-    .button-short{
+    .button-short{ /* Showing shorter text button */
         display: block;
     }
     .footer-content{
         justify-content: space-between;
     }
-    .footer-item{
+    .footer-item{ /* Changing font size on smaller screens*/
         font-size: 1.4em;
     }
 }
