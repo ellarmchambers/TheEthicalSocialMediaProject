@@ -685,7 +685,8 @@ button { /* Conditions for buttons */
     max-width: 1280px;
     width: 88%;
     margin: auto;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding-bottom: 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between; 
@@ -802,6 +803,7 @@ button { /* Conditions for buttons */
     }
     .application-icons{
         align-self: center;
+        padding-top: 35px;
     }
     .phone-images{
         justify-content: space-evenly;
@@ -850,8 +852,8 @@ button { /* Conditions for buttons */
         width: 100%;
     }
     .application-icons{
-        display: inline;
         align-self: center;
+        padding-top: 35px;
     }
     h1{ /* Changes typography sizes for smaller screens */
         font-size: 3.5em;
@@ -890,7 +892,6 @@ button { /* Conditions for buttons */
     }
     .feature-page-buttons{
         padding-bottom: 35px;
-        padding-top: 5px;
     }
     .prev-next-button{
         font-size: 1.8em;
@@ -938,6 +939,7 @@ button { /* Conditions for buttons */
     }
     .application-icons{
         align-self: center;
+        padding-top: 30px;
     }
     .grid-container{ /* Changing layout of notification icons */
         grid-gap: 40px;    
@@ -983,7 +985,6 @@ button { /* Conditions for buttons */
     }
     .feature-page-buttons{
         padding-bottom: 35px;
-        padding-top: 5px;
     }
     .prev-next-button{
         font-size: 1.6em;
@@ -1038,6 +1039,7 @@ button { /* Conditions for buttons */
     }
     .application-icons{
         align-self: center;
+        padding-top: 30px;
     }
     .grid-container{
         grid-gap: 30px;  
@@ -1088,7 +1090,6 @@ button { /* Conditions for buttons */
     }
     .feature-page-buttons{
         padding-bottom: 35px;
-        padding-top: 5px;
     }
     .prev-next-button{
         font-size: 1.6em;
@@ -1143,6 +1144,7 @@ button { /* Conditions for buttons */
     }
     .application-icons{
         align-self: center;
+        padding-top: 30px;
     }
     .grid-container{
         grid-gap: 15px;  
@@ -1192,7 +1194,6 @@ button { /* Conditions for buttons */
     }
     .feature-page-buttons{
         padding-bottom: 35px;
-        padding-top: 5px;
     }
     .prev-next-button{
         font-size: 1.6em;
@@ -1252,6 +1253,7 @@ button { /* Conditions for buttons */
     }
     .application-icons{
         align-self: center;
+        padding-top: 30px;
     }
     .grid-container{
         grid-gap: 5px;  
@@ -1305,7 +1307,6 @@ button { /* Conditions for buttons */
     }
     .feature-page-buttons{
         padding-bottom: 35px;
-        padding-top: 5px;
     }
     .prev-next-button{
         font-size: 1.6em;
