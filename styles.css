@@ -143,6 +143,11 @@ footer{
     font-weight: 800;
     color: #ffffff;
     font-size: 1.5em;
+    text-decoration: none;
+}
+
+.item-resources:hover{
+    color: #d0b5de;
 }
 
 /* TYPOGRAPHY */
@@ -691,8 +696,13 @@ button { /* Conditions for buttons */
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     color: #2B0054;
-    font-size: 2em;
+    font-size: 1.8em;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+.prev-next-button:hover{
+    color: #782BA1;
 }
 
 .icon-next{
@@ -703,6 +713,9 @@ button { /* Conditions for buttons */
     padding-right: 10px;
 }
 
+.button-short{
+    display: none;
+}
 
 /* TIKTOK SCROLL */
 
@@ -852,6 +865,9 @@ button { /* Conditions for buttons */
     h5{
         font-size: 6em;
     }
+    p{
+        font-size: 1.4em;
+    }
     .flex-grid{
         flex-direction: row;
         flex: wrap;
@@ -928,6 +944,9 @@ button { /* Conditions for buttons */
     h5{
         font-size: 6em;
     }
+    p{
+        font-size: 1.4em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -953,13 +972,23 @@ button { /* Conditions for buttons */
         margin-top: 180px;
     }
     .feature-page-buttons{
-        justify-content: space-around;
+        padding-bottom: 35px;
+        padding-top: 5px;
     }
     .prev-next-button{
-        line-height: 60px;
+        font-size: 1.6em;
+    }
+    .button-long{
+        display: none;
+    }
+    .button-short{
+        display: block;
     }
     .footer-content{
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+    .footer-item{
+        font-size: 1.4em;
     }
 }
 
@@ -1015,6 +1044,9 @@ button { /* Conditions for buttons */
     h5{
         font-size: 6em;
     }
+    p{
+        font-size: 1.4em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -1043,6 +1075,25 @@ button { /* Conditions for buttons */
     .logo-home{
         margin-left: 20px;
         margin-top: 180px;
+    }
+    .feature-page-buttons{
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+    .prev-next-button{
+        font-size: 1.6em;
+    }
+    .button-long{
+        display: none;
+    }
+    .button-short{
+        display: block;
+    }
+    .footer-content{
+        justify-content: space-between;
+    }
+    .footer-item{
+        font-size: 1.4em;
     }
 }
 
@@ -1098,6 +1149,9 @@ button { /* Conditions for buttons */
     h5{
         font-size: 6em;
     }
+    p{
+        font-size: 1.4em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -1125,6 +1179,25 @@ button { /* Conditions for buttons */
     }
     .logo-home{
         margin-left: 20px;
+    }
+    .feature-page-buttons{
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+    .prev-next-button{
+        font-size: 1.6em;
+    }
+    .button-long{
+        display: none;
+    }
+    .button-short{
+        display: block;
+    }
+    .footer-content{
+        justify-content: space-between;
+    }
+    .footer-item{
+        font-size: 1.4em;
     }
 }
 
@@ -1189,6 +1262,9 @@ button { /* Conditions for buttons */
     h5{
         font-size: 4.5em;
     }
+    p{
+        font-size: 1.4em;
+    }
     .flex-grid{
         flex-direction: column;
         align-items: center;
@@ -1216,5 +1292,24 @@ button { /* Conditions for buttons */
     }
     .logo-home{
         margin-left: 20px;
+    }
+    .feature-page-buttons{
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+    .prev-next-button{
+        font-size: 1.6em;
+    }
+    .button-long{
+        display: none;
+    }
+    .button-short{
+        display: block;
+    }
+    .footer-content{
+        justify-content: space-between;
+    }
+    .footer-item{
+        font-size: 1.4em;
     }
 }
